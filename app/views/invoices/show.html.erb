@@ -1,0 +1,74 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Invoice date:</strong>
+  <%= @invoice.invoice_date %>
+</p>
+
+<p>
+  <strong>Invoice number:</strong>
+  <%= @invoice.invoice_number %>
+</p>
+
+<p>
+  <strong>Bill to:</strong>
+  <%= @invoice.bill_to %>
+</p>
+
+<p>
+  <strong>Ship to:</strong>
+  <%= @invoice.ship_to %>
+</p>
+
+<p>
+  <strong>Customer number:</strong>
+  <%= @invoice.customer_number %>
+</p>
+
+<p>
+  <strong>Customer order number:</strong>
+  <%= @invoice.customer_order_number %>
+</p>
+
+<p>
+  <strong>Release number:</strong>
+  <%= @invoice.release_number %>
+</p>
+
+<p>
+  <strong>Ordered by:</strong>
+  <%= @invoice.ordered_by %>
+</p>
+
+<p>
+  <strong>Salesperson:</strong>
+  <%= @invoice.salesperson %>
+</p>
+
+<p>
+  <strong>Csr:</strong>
+  <%= @invoice.csr %>
+</p>
+
+<p>
+  <strong>Ship via:</strong>
+  <%= @invoice.ship_via %>
+</p>
+
+<p>
+  <strong>Terms:</strong>
+  <%= @invoice.terms %>
+</p>
+
+<p>
+  <strong>Ship date:</strong>
+  <%= @invoice.ship_date %>
+</p>
+
+<p>
+  <strong>Order date:</strong>
+  <%= @invoice.order_date %>
+</p>
+
+<%= link_to 'Edit', edit_invoice_path(@invoice) %> |
+<%= link_to 'Back', invoices_path %>

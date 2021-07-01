@@ -1,0 +1,53 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Invoices</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Invoice date</th>
+      <th>Invoice number</th>
+      <th>Bill to</th>
+      <th>Ship to</th>
+      <th>Customer number</th>
+      <th>Customer order number</th>
+      <th>Release number</th>
+      <th>Ordered by</th>
+      <th>Salesperson</th>
+      <th>Csr</th>
+      <th>Ship via</th>
+      <th>Terms</th>
+      <th>Ship date</th>
+      <th>Order date</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @invoices.each do |invoice| %>
+      <tr>
+        <td><%= invoice.invoice_date %></td>
+        <td><%= invoice.invoice_number %></td>
+        <td><%= invoice.bill_to %></td>
+        <td><%= invoice.ship_to %></td>
+        <td><%= invoice.customer_number %></td>
+        <td><%= invoice.customer_order_number %></td>
+        <td><%= invoice.release_number %></td>
+        <td><%= invoice.ordered_by %></td>
+        <td><%= invoice.salesperson %></td>
+        <td><%= invoice.csr %></td>
+        <td><%= invoice.ship_via %></td>
+        <td><%= invoice.terms %></td>
+        <td><%= invoice.ship_date %></td>
+        <td><%= invoice.order_date %></td>
+        <td><%= link_to 'Show', invoice %></td>
+        <td><%= link_to 'Edit', edit_invoice_path(invoice) %></td>
+        <td><%= link_to 'Destroy', invoice, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Invoice', new_invoice_path %>

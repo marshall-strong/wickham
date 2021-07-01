@@ -1,0 +1,87 @@
+<%= form_with(model: invoice) do |form| %>
+  <% if invoice.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(invoice.errors.count, "error") %> prohibited this invoice from being saved:</h2>
+
+      <ul>
+        <% invoice.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :invoice_date %>
+    <%= form.text_field :invoice_date %>
+  </div>
+
+  <div class="field">
+    <%= form.label :invoice_number %>
+    <%= form.text_field :invoice_number %>
+  </div>
+
+  <div class="field">
+    <%= form.label :bill_to %>
+    <%= form.text_field :bill_to %>
+  </div>
+
+  <div class="field">
+    <%= form.label :ship_to %>
+    <%= form.text_field :ship_to %>
+  </div>
+
+  <div class="field">
+    <%= form.label :customer_number %>
+    <%= form.text_field :customer_number %>
+  </div>
+
+  <div class="field">
+    <%= form.label :customer_order_number %>
+    <%= form.text_field :customer_order_number %>
+  </div>
+
+  <div class="field">
+    <%= form.label :release_number %>
+    <%= form.text_field :release_number %>
+  </div>
+
+  <div class="field">
+    <%= form.label :ordered_by %>
+    <%= form.text_field :ordered_by %>
+  </div>
+
+  <div class="field">
+    <%= form.label :salesperson %>
+    <%= form.text_field :salesperson %>
+  </div>
+
+  <div class="field">
+    <%= form.label :csr %>
+    <%= form.text_field :csr %>
+  </div>
+
+  <div class="field">
+    <%= form.label :ship_via %>
+    <%= form.text_field :ship_via %>
+  </div>
+
+  <div class="field">
+    <%= form.label :terms %>
+    <%= form.text_field :terms %>
+  </div>
+
+  <div class="field">
+    <%= form.label :ship_date %>
+    <%= form.text_field :ship_date %>
+  </div>
+
+  <div class="field">
+    <%= form.label :order_date %>
+    <%= form.text_field :order_date %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

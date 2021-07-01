@@ -1,0 +1,33 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  invoice_date: MyString
+  invoice_number: MyString
+  bill_to: MyString
+  ship_to: MyString
+  customer_number: MyString
+  customer_order_number: MyString
+  release_number: MyString
+  ordered_by: MyString
+  salesperson: MyString
+  csr: MyString
+  ship_via: MyString
+  terms: MyString
+  ship_date: MyString
+  order_date: MyString
+
+two:
+  invoice_date: MyString
+  invoice_number: MyString
+  bill_to: MyString
+  ship_to: MyString
+  customer_number: MyString
+  customer_order_number: MyString
+  release_number: MyString
+  ordered_by: MyString
+  salesperson: MyString
+  csr: MyString
+  ship_via: MyString
+  terms: MyString
+  ship_date: MyString
+  order_date: MyString
