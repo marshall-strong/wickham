@@ -8,4 +8,5 @@
 #  updated_at :datetime         not null
 #
 class FoodProduct < ApplicationRecord
+  belongs_to :product, class_name: :Product, foreign_key: "product_id"
 end
