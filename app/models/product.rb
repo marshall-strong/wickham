@@ -14,5 +14,6 @@
 #  updated_at  :datetime         not null
 #
 class Product < ApplicationRecord
+  belongs_to :vendor, class_name: :Vendor, foreign_key: "vendor_id"
   has_many :paper_products, class_name: :PaperProduct, foreign_key: "product_id"
 end
