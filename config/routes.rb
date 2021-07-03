@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :paper_products
   resources :ingredients
   resources :ncrs
   resources :kitchens
