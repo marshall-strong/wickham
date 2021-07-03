@@ -14,4 +14,5 @@
 #  updated_at  :datetime         not null
 #
 class Product < ApplicationRecord
+  has_many :paper_products, class_name: :PaperProduct, foreign_key: "product_id"
 end
