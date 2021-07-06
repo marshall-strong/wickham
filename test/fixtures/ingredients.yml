@@ -1,0 +1,24 @@
+# == Schema Information
+#
+# Table name: ingredients
+#
+#  id           :bigint           not null, primary key
+#  cook_temp    :float
+#  name         :string
+#  quantity     :string
+#  storage_temp :string
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+one:
+  name: MyString
+  quantity: MyString
+  storage_temp: MyString
+  cook_temp: 1.5
+
+two:
+  name: MyString
+  quantity: MyString
+  storage_temp: MyString
+  cook_temp: 1.5

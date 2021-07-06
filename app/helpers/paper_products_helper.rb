@@ -1,0 +1,2 @@
+module PaperProductsHelper
+end
