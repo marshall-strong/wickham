@@ -27,22 +27,6 @@ ActiveRecord::Schema.define(version: 2021_07_03_074735) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "foods", force: :cascade do |t|
-    t.string "name"
-    t.string "directions"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "ingredients", force: :cascade do |t|
-    t.string "name"
-    t.string "quantity"
-    t.string "storage_temp"
-    t.float "cook_temp"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "invoices", force: :cascade do |t|
     t.string "invoice_date"
     t.string "invoice_number"
