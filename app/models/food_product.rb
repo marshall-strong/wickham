@@ -6,6 +6,8 @@
 #  name       :string
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  product_id :integer
+#  recipe_id  :integer
 #
 class FoodProduct < ApplicationRecord
   belongs_to :product, class_name: :Product, foreign_key: "product_id"
