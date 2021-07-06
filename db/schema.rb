@@ -68,13 +68,6 @@ ActiveRecord::Schema.define(version: 2021_07_03_074735) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "measurements", force: :cascade do |t|
-    t.float "quantity"
-    t.string "unit"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "ncrs", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
