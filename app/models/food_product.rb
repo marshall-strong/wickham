@@ -9,4 +9,5 @@
 #
 class FoodProduct < ApplicationRecord
   belongs_to :product, class_name: :Product, foreign_key: "product_id"
+  belongs_to :recipe, class_name: :Recipe, foreign_key: "recipe_id"
 end
