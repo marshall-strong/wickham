@@ -8,12 +8,12 @@
 
 # Destroy existing seeds
 Ncr.destroy_all
-Invoice.destroy_all
 FoodProduct.destroy_all
 PaperProduct.destroy_all
 Recipe.destroy_all
 Kitchen.destroy_all
 Building.destroy_all
+Invoice.destroy_all
 Product.destroy_all
 Vendor.destroy_all
 
