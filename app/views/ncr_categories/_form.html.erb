@@ -1,0 +1,27 @@
+<%= form_with(model: ncr_category) do |form| %>
+  <% if ncr_category.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(ncr_category.errors.count, "error") %> prohibited this ncr_category from being saved:</h2>
+
+      <ul>
+        <% ncr_category.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :department_id %>
+    <%= form.number_field :department_id %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

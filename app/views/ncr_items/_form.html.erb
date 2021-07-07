@@ -1,0 +1,47 @@
+<%= form_with(model: ncr_item) do |form| %>
+  <% if ncr_item.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(ncr_item.errors.count, "error") %> prohibited this ncr_item from being saved:</h2>
+
+      <ul>
+        <% ncr_item.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :category_id %>
+    <%= form.number_field :category_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :item_name %>
+    <%= form.text_field :item_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :is_active_at_pos %>
+    <%= form.check_box :is_active_at_pos %>
+  </div>
+
+  <div class="field">
+    <%= form.label :is_active_online %>
+    <%= form.check_box :is_active_online %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_field :description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sales_price %>
+    <%= form.text_field :sales_price %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

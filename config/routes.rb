@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :ncr_items
+  resources :ncr_categories
+  resources :ncr_departments
   resources :buildings
   resources :kitchens
   resources :recipes

@@ -1,0 +1,2 @@
+class NcrCategory < ApplicationRecord
+end

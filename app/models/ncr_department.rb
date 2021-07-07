@@ -1,0 +1,2 @@
+class NcrDepartment < ApplicationRecord
+end
