@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Ncr Categories</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Department</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @ncr_categories.each do |ncr_category| %>
+      <tr>
+        <td><%= ncr_category.name %></td>
+        <td><%= ncr_category.department_id %></td>
+        <td><%= link_to 'Show', ncr_category %></td>
+        <td><%= link_to 'Edit', edit_ncr_category_path(ncr_category) %></td>
+        <td><%= link_to 'Destroy', ncr_category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Ncr Category', new_ncr_category_path %>
