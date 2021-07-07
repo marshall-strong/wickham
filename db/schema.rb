@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_01_025026) do
+ActiveRecord::Schema.define(version: 2021_07_03_074735) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,9 +21,10 @@ ActiveRecord::Schema.define(version: 2021_07_01_025026) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "foods", force: :cascade do |t|
+  create_table "food_products", force: :cascade do |t|
     t.string "name"
-    t.string "directions"
+    t.integer "product_id"
+    t.integer "recipe_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -49,13 +50,7 @@ ActiveRecord::Schema.define(version: 2021_07_01_025026) do
 
   create_table "kitchens", force: :cascade do |t|
     t.string "name"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "measurements", force: :cascade do |t|
-    t.float "quantity"
-    t.string "unit"
+    t.integer "building_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -66,14 +61,26 @@ ActiveRecord::Schema.define(version: 2021_07_01_025026) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "paper_products", force: :cascade do |t|
+    t.string "name"
+    t.integer "product_id"
+    t.integer "recipe_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "products", force: :cascade do |t|
-    t.string "order_qty"
-    t.string "ship_qty"
     t.string "description"
     t.string "part_no"
-    t.string "tax"
-    t.string "unit_price"
-    t.string "ext_prc"
+    t.integer "vendor_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "recipes", force: :cascade do |t|
+    t.string "name"
+    t.string "directions"
+    t.integer "prep_kitchen_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

@@ -1,0 +1,19 @@
+# == Schema Information
+#
+# Table name: recipes
+#
+#  id              :bigint           not null, primary key
+#  directions      :string
+#  name            :string
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#  prep_kitchen_id :integer
+#
+
+one:
+  name: MyString
+  directions: MyString
+
+two:
+  name: MyString
+  directions: MyString
