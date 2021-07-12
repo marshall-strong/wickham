@@ -8,12 +8,12 @@
 
 # Destroy existing seeds
 Ncr.destroy_all
-Invoice.destroy_all
 FoodProduct.destroy_all
 PaperProduct.destroy_all
 Recipe.destroy_all
 Kitchen.destroy_all
 Building.destroy_all
+Invoice.destroy_all
 Product.destroy_all
 Vendor.destroy_all
 
@@ -50,7 +50,7 @@ shakeup_truck_kitchen = Kitchen.create!(name: "Shakeup Truck", building: shakeup
 smoke_shack_kitchen = Kitchen.create!(name: "Smoke Shack", building: smoke_shack_building)
 grill_shack_kitchen = Kitchen.create!(name: "Grill Shack", building: grill_shack_building)
 
-# Recipes 
+# Recipes
 cheese_pizza_recipe = Recipe.create!(name: "Personal Cheese Pizza", directions: "Here is how to make a Personal Cheese Pizza...", prep_kitchen: pizza_porch)
 
 # Paper Products
