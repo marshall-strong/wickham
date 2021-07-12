@@ -1,3 +1,3 @@
 class Ncr < ApplicationRecord
-  
+
 end
