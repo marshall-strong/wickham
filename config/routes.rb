@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       get '/buildings', to: 'buildings#index'
       get '/kitchens', to: 'kitchens#index'
+      get '/products', to: 'products#index'
     end
   end
 
