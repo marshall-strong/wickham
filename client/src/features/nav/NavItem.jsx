@@ -2,15 +2,12 @@ import React from "react";
 
 const NavItem = ({ href, isActive, children }) => {
   return (
-    <li>
-      <a
-        href={href}
-        className={`block px-4 py-2 rounded-md ${
-          isActive ? "bg-amber-100 text-amber-700" : ""
-        }`}
-      >
-        {children}
-      </a>
+    <li
+      className={`block px-4 py-2 rounded-md ${
+        isActive ? "bg-red-100 text-blue-700" : ""
+      }`}
+    >
+      <a href={href}>{children}</a>
     </li>
   );
 };

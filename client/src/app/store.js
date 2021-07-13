@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 import counterReducer from "../features/counter/counterSlice";
-import buildingsReducer from "../features/buildings/buildings_slice";
+import buildingsReducer from "../features/buildings/buildingsSlice";
 
 export const store = configureStore({
   reducer: {

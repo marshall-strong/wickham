@@ -10,7 +10,7 @@ import Counter from "./features/counter/Counter";
 import Logo from "./features/logo/Logo";
 import NavBar from "./features/nav/NavBar";
 import SampleLinks from "./features/sample_links/SampleLinks";
-import { Buildings } from "./features/buildings/Buildings";
+import Buildings from "./features/buildings/Buildings";
 import "./App.css";
 
 const App = () => {

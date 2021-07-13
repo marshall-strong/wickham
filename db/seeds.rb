@@ -37,6 +37,12 @@ csa_barn = Building.create!(name: "CSA Barn")
 shakeup_truck_building = Building.create!(name: "Shakeup Truck")
 smoke_shack_building = Building.create!(name: "Smoke Shack")
 grill_shack_building = Building.create!(name: "Grill Shack")
+the_shop = Building.create!(name: "The Shop")
+gator_garage = Building.create!(name: "Gator Garage")
+root_cellar = Building.create!(name: "Root Cellar")
+red_shed = Building.create!(name: "Red Shed")
+# dicks_shop = Building.create!(name: "Dick's Shop")
+# dicks_garage = Building.create! (name: "Dick's Garage")
 
 # Kitchens
 bakery = Kitchen.create!(name: "Bakery", building: main_barn)

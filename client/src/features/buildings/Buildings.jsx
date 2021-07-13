@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  fetchBuildings,
+  selectAllBuildings,
+  selectBuildingById,
+  selectBuildingIds,
+} from "./buildingsSlice";
 import List from "../lists/List";
 
-export const Building = ({ building }) => {
+export const Building = ({ buildingId }) => {
+  const building = useSelector((state) =>
+    selectBuildingById(state, buildingId)
+  );
   return (
     <article className="p-4 flex space-x-4">
       <img
@@ -15,40 +25,66 @@ export const Building = ({ building }) => {
         <h2 className="text-lg font-semibold text-black mb-0.5">
           {building.name}
         </h2>
-        <dl className="flex flex-wrap text-sm font-medium whitespace-pre"></dl>
+        <dl className="flex flex-wrap text-sm font-medium whitespace-pre">
+          <div>
+            <dt className="sr-only">id</dt>
+            <dd>
+              <abbr title={`id: ${building.id}`}>id: {building.id}</abbr>
+            </dd>
+          </div>
+          <div>
+            <dt className="sr-only">id</dt>
+            <dd> · {building.id}</dd>
+          </div>
+          <div className="flex-none w-full mt-0.5 font-normal">
+            <dt className="inline">Part of </dt>{" "}
+            <dd className="inline text-black">{"Wickham Farms"}</dd>
+          </div>
+        </dl>
       </div>
     </article>
   );
 };
 
-export const Buildings = ({ buildings }) => {
-  const mainBarn = { id: 1, name: "Main Barn" };
-  const foodBarn = { id: 2, name: "Food Barn" };
-  const cornBarn = { id: 3, name: "Corn Barn" };
-  const shadeBarn = { id: 4, name: "Shade Barn" };
-  const csaBarn = { id: 5, name: "CSA Barn" };
-  const shakeupTruck = { id: 6, name: "Shakeup Truck" };
-  const smokeShack = { id: 7, name: "Smoke Shack" };
-  const grillShack = { id: 8, name: "Grill Shack" };
-
-  const buildingSeeds = [
-    mainBarn,
-    foodBarn,
-    cornBarn,
-    shadeBarn,
-    csaBarn,
-    shakeupTruck,
-    smokeShack,
-    grillShack,
-  ];
-
+export const Buildings = ({ buildingIds }) => {
   return (
-    <div className="divide-y divide-gray-100">
-      <List>
-        {buildingSeeds.map((building) => (
-          <Building key={building.id} building={building} />
-        ))}
-      </List>
-    </div>
+    <List>
+      {buildingIds.map((id) => (
+        <Building key={id} buildingId={id} />
+      ))}
+    </List>
   );
 };
+
+const BuildingsContainer = () => {
+  const dispatch = useDispatch();
+  const [requestSent, setRequestSent] = useState(false);
+  useEffect(() => {
+    if (!requestSent) {
+      dispatch(fetchBuildings());
+      setRequestSent(true);
+    }
+  }, [requestSent, dispatch]);
+
+  const fetchBuildingsStatus = useSelector(
+    (state) => state.buildings.status.fetchBuildings
+  );
+  const allBuildingIds = useSelector((state) => selectBuildingIds(state));
+  let content;
+
+  if (!fetchBuildingsStatus || fetchBuildingsStatus === "pending") {
+    content = <div className="loader" />;
+  } else if (fetchBuildingsStatus === "fulfilled") {
+    content = <Buildings buildingIds={allBuildingIds} />;
+  } else if (fetchBuildingsStatus === "rejected") {
+    content = <div>fetchBuildings was rejected!!!</div>;
+  } else {
+    content = (
+      <div>Something unexpected happened in the BuildingsContainer...</div>
+    );
+  }
+
+  return <div className="Buildings">{content}</div>;
+};
+
+export default BuildingsContainer;
