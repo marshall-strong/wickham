@@ -11,6 +11,7 @@ const NavBar = () => {
       <NavItem href="/counter">Counter</NavItem>
       <NavItem href="/logo">Logo</NavItem>
       <NavItem href="/sample_links">Sample Links</NavItem>
+      <NavItem href="/buildings">Buildings</NavItem>
     </Nav>
   );
 };
