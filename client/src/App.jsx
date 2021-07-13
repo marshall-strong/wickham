@@ -15,6 +15,7 @@ import Kitchens from "./features/kitchens/Kitchens";
 import Products from "./features/products/Products";
 import Recipes from "./features/recipes/Recipes";
 import PaperProducts from "./features/paperProducts/PaperProducts";
+import FoodProducts from "./features/foodProducts/FoodProducts";
 import "./App.css";
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
           <Route exact path="/products" component={Products} />
           <Route exact path="/recipes" component={Recipes} />
           <Route exact path="/paper_products" component={PaperProducts} />
+          <Route exact path="/food_products" component={FoodProducts} />
           <Redirect to="/" />
         </Switch>
       </Router>
