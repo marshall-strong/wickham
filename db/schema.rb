@@ -94,6 +94,7 @@ ActiveRecord::Schema.define(version: 2021_07_07_190102) do
   end
 
   create_table "products", force: :cascade do |t|
+    t.string "name"
     t.string "description"
     t.string "part_no"
     t.integer "vendor_id"

@@ -23,10 +23,10 @@ kecks = Vendor.create!(name: "Keck's Food Service")
 palmer = Vendor.create!(name: "Palmer Food Services")
 
 # Products
-regional_pizza_boxes = Product.create!(description: "00177 PCA 7\" CORRUGATED STOCK PRINT PIZZA BOX 50/BUNDLE", part_no: "21353", vendor: regional)
-regional_pizza_crusts = Product.create!(description: "VILLA ITALIANO 7\" PIZZA CRUSTS (SAMPLE DATA)", part_no: "00001", vendor: regional)
-regional_pizza_sauce = Product.create!(description: "MAMA MIA PIZZA SAUCE (SAMPLE DATA)", part_no: "00002", vendor: regional)
-regional_mozzarella_cheese = Product.create!(description: "GIOVANNI MOZZARELLA CHEESE (SAMPLE DATA)", part_no: "00003", vendor: regional)
+regional_pizza_boxes = Product.create!(name: "pizza boxes", description: "00177 PCA 7\" CORRUGATED STOCK PRINT PIZZA BOX 50/BUNDLE", part_no: "21353", vendor: regional)
+regional_pizza_crusts = Product.create!(name: "pizza crust", description: "VILLA ITALIANO 7\" PIZZA CRUSTS (SAMPLE DATA)", part_no: "00001", vendor: regional)
+regional_pizza_sauce = Product.create!(name: "pizza sauce", description: "MAMA MIA PIZZA SAUCE (SAMPLE DATA)", part_no: "00002", vendor: regional)
+regional_mozzarella_cheese = Product.create!(name: "mozzarella cheese", description: "GIOVANNI MOZZARELLA CHEESE (SAMPLE DATA)", part_no: "00003", vendor: regional)
 
 # Buildings
 main_barn = Building.create!(name: "Main Barn")

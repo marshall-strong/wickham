@@ -3,6 +3,7 @@
 # Table name: products
 #
 #  id          :bigint           not null, primary key
+#  name        :string
 #  description :string
 #  part_no     :string
 #  created_at  :datetime         not null

@@ -12,6 +12,7 @@ import NavBar from "./features/nav/NavBar";
 import SampleLinks from "./features/sample_links/SampleLinks";
 import Buildings from "./features/buildings/Buildings";
 import Kitchens from "./features/kitchens/Kitchens";
+import Products from "./features/products/Products";
 import "./App.css";
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
           <Route exact path="/sample_links" component={SampleLinks} />
           <Route exact path="/buildings" component={Buildings} />
           <Route exact path="/kitchens" component={Kitchens} />
+          <Route exact path="/products" component={Products} />
           <Redirect to="/" />
         </Switch>
       </Router>
