@@ -38,6 +38,9 @@ const NavBar = () => {
       <NavItem href="/recipes" isActive={false}>
         Recipes
       </NavItem>
+      <NavItem href="/paper_products" isActive={false}>
+        Paper Products
+      </NavItem>
     </Nav>
   );
 };
