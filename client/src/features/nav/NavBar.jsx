@@ -29,6 +29,9 @@ const NavBar = () => {
       <NavItem href="/buildings" isActive={false}>
         Buildings
       </NavItem>
+      <NavItem href="/kitchens" isActive={false}>
+        Kitchens
+      </NavItem>
     </Nav>
   );
 };
