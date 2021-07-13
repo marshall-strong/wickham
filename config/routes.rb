@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       get '/buildings', to: 'buildings#index'
       get '/kitchens', to: 'kitchens#index'
       get '/products', to: 'products#index'
+      get '/recipes', to: 'recipes#index'
     end
   end
 
