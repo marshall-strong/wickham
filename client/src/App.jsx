@@ -6,7 +6,6 @@ import {
   Switch,
 } from "react-router-dom";
 import Home from "./features/home/Home";
-import Counter from "./features/counter/Counter";
 import NavBar from "./features/nav/NavBar";
 import Buildings from "./features/buildings/Buildings";
 import Kitchens from "./features/kitchens/Kitchens";
@@ -24,7 +23,6 @@ const App = () => {
         <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/counter" component={Counter} />
           <Route exact path="/buildings" component={Buildings} />
           <Route exact path="/kitchens" component={Kitchens} />
           <Route exact path="/products" component={Products} />
