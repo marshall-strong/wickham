@@ -8,19 +8,22 @@ import {
 import Home from "./features/home/Home";
 import Counter from "./features/counter/Counter";
 import Logo from "./features/logo/Logo";
+import NavBar from "./features/nav/NavBar";
 import SampleLinks from "./features/sample_links/SampleLinks";
+import { Buildings } from "./features/buildings/Buildings";
 import "./App.css";
 
 const App = () => {
   return (
     <main className="App">
       <Router>
+        <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/counter" component={Counter} />
-          {/* <Route exact path="/home" component={Home} /> */}
           <Route exact path="/logo" component={Logo} />
           <Route exact path="/sample_links" component={SampleLinks} />
+          <Route exact path="/buildings" component={Buildings} />
           <Redirect to="/" />
         </Switch>
       </Router>
