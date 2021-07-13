@@ -13,6 +13,7 @@ import SampleLinks from "./features/sample_links/SampleLinks";
 import Buildings from "./features/buildings/Buildings";
 import Kitchens from "./features/kitchens/Kitchens";
 import Products from "./features/products/Products";
+import Recipes from "./features/recipes/Recipes";
 import "./App.css";
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
           <Route exact path="/buildings" component={Buildings} />
           <Route exact path="/kitchens" component={Kitchens} />
           <Route exact path="/products" component={Products} />
+          <Route exact path="/recipes" component={Recipes} />
           <Redirect to="/" />
         </Switch>
       </Router>
