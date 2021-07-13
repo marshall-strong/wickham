@@ -6,6 +6,7 @@ import productsReducer from "../features/products/productsSlice";
 import recipesReducer from "../features/recipes/recipesSlice";
 import paperProductsReducer from "../features/paperProducts/paperProductsSlice";
 import foodProductsReducer from "../features/foodProducts/foodProductsSlice";
+import vendorsReducer from "../features/vendors/vendorsSlice";
 
 export const store = configureStore({
   reducer: {
@@ -16,5 +17,6 @@ export const store = configureStore({
     recipes: recipesReducer,
     paperProducts: paperProductsReducer,
     foodProducts: foodProductsReducer,
+    vendors: vendorsReducer,
   },
 });
