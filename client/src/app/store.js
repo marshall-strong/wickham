@@ -4,6 +4,7 @@ import buildingsReducer from "../features/buildings/buildingsSlice";
 import kitchensReducer from "../features/kitchens/kitchensSlice";
 import productsReducer from "../features/products/productsSlice";
 import recipesReducer from "../features/recipes/recipesSlice";
+import paperProductsReducer from "../features/paperProducts/paperProductsSlice";
 
 export const store = configureStore({
   reducer: {
@@ -12,5 +13,6 @@ export const store = configureStore({
     kitchens: kitchensReducer,
     products: productsReducer,
     recipes: recipesReducer,
+    paperProducts: paperProductsReducer,
   },
 });
