@@ -1,20 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
-  fetchBuildings,
-  selectBuildingById,
-  selectBuildingIds,
-} from "./buildingsSlice";
+  fetchKitchens,
+  selectKitchenById,
+  selectKitchenIds,
+} from "./kitchensSlice";
 import List from "../lists/List";
 
-export const Building = ({ buildingId }) => {
-  const building = useSelector((state) =>
-    selectBuildingById(state, buildingId)
-  );
+export const Kitchen = ({ kitchenId }) => {
+  const kitchen = useSelector((state) => selectKitchenById(state, kitchenId));
   return (
     <article className="p-4 flex space-x-4">
       <img
-        // src={building.image}
+        // src={kitchen.image}
         alt=""
         className="flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
         width="144"
@@ -22,18 +20,18 @@ export const Building = ({ buildingId }) => {
       />
       <div className="min-w-0 relative flex-auto sm:pr-20 lg:pr-0 xl:pr-20">
         <h2 className="text-lg font-semibold text-black mb-0.5">
-          {building.name}
+          {kitchen.name}
         </h2>
         <dl className="flex flex-wrap text-sm font-medium whitespace-pre">
           <div>
             <dt className="sr-only">id</dt>
             <dd>
-              <abbr title={`id: ${building.id}`}>id: {building.id}</abbr>
+              <abbr title={`id: ${kitchen.id}`}>id: {kitchen.id}</abbr>
             </dd>
           </div>
           <div>
             <dt className="sr-only">id</dt>
-            <dd> · {building.id}</dd>
+            <dd> · {kitchen.id}</dd>
           </div>
           <div className="flex-none w-full mt-0.5 font-normal">
             <dt className="inline">Part of </dt>{" "}
@@ -45,45 +43,45 @@ export const Building = ({ buildingId }) => {
   );
 };
 
-export const Buildings = ({ buildingIds }) => {
+export const Kitchens = ({ kitchenIds }) => {
   return (
     <List>
-      {buildingIds.map((id) => (
-        <Building key={id} buildingId={id} />
+      {kitchenIds.map((id) => (
+        <Kitchen key={id} kitchenId={id} />
       ))}
     </List>
   );
 };
 
-const BuildingsContainer = () => {
+const KitchensContainer = () => {
   const dispatch = useDispatch();
   const [requestSent, setRequestSent] = useState(false);
   useEffect(() => {
     if (!requestSent) {
-      dispatch(fetchBuildings());
+      dispatch(fetchKitchens());
       setRequestSent(true);
     }
   }, [requestSent, dispatch]);
 
-  const fetchBuildingsStatus = useSelector(
-    (state) => state.buildings.status.fetchBuildings
+  const fetchKitchensStatus = useSelector(
+    (state) => state.kitchens.status.fetchKitchens
   );
-  const allBuildingIds = useSelector((state) => selectBuildingIds(state));
+  const allKitchenIds = useSelector((state) => selectKitchenIds(state));
   let content;
 
-  if (!fetchBuildingsStatus || fetchBuildingsStatus === "pending") {
+  if (!fetchKitchensStatus || fetchKitchensStatus === "pending") {
     content = <div className="loader" />;
-  } else if (fetchBuildingsStatus === "fulfilled") {
-    content = <Buildings buildingIds={allBuildingIds} />;
-  } else if (fetchBuildingsStatus === "rejected") {
-    content = <div>fetchBuildings was rejected!!!</div>;
+  } else if (fetchKitchensStatus === "fulfilled") {
+    content = <Kitchens kitchenIds={allKitchenIds} />;
+  } else if (fetchKitchensStatus === "rejected") {
+    content = <div>fetchKitchens was rejected!!!</div>;
   } else {
     content = (
-      <div>Something unexpected happened in the BuildingsContainer...</div>
+      <div>Something unexpected happened in the KitchensContainer...</div>
     );
   }
 
-  return <div className="Buildings">{content}</div>;
+  return <div className="Kitchens">{content}</div>;
 };
 
-export default BuildingsContainer;
+export default KitchensContainer;
