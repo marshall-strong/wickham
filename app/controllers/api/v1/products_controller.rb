@@ -5,4 +5,3 @@ class Api::V1::ProductsController < ApiController
     render 'api/v1/products/index'
   end
 end
-'
