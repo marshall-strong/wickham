@@ -1,5 +1,3 @@
-# json.array! @buildings, partial: "buildings/building", as: :building
-
 json.buildings do
   @buildings.each do |building|
     json.set! building.id do
@@ -8,3 +6,5 @@ json.buildings do
     end
   end
 end
+
+# json.array! @buildings, partial: "buildings/building", as: :building
