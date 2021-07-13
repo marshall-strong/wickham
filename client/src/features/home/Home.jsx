@@ -1,7 +1,7 @@
 import React from "react";
 import Counter from "../counter/Counter";
-import Logo from "../logo/Logo";
-import SampleLinks from "../sample_links/SampleLinks";
+import Logo from "./Logo";
+import SampleLinks from "./SampleLinks";
 
 const Home = () => {
   return (
