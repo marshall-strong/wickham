@@ -25,7 +25,22 @@ export const Building = ({ buildingId }) => {
         <h2 className="text-lg font-semibold text-black mb-0.5">
           {building.name}
         </h2>
-        <dl className="flex flex-wrap text-sm font-medium whitespace-pre"></dl>
+        <dl className="flex flex-wrap text-sm font-medium whitespace-pre">
+          <div>
+            <dt className="sr-only">id</dt>
+            <dd>
+              <abbr title={`id: ${building.id}`}>id: {building.id}</abbr>
+            </dd>
+          </div>
+          <div>
+            <dt className="sr-only">id</dt>
+            <dd> · {building.id}</dd>
+          </div>
+          <div className="flex-none w-full mt-0.5 font-normal">
+            <dt className="inline">Part of </dt>{" "}
+            <dd className="inline text-black">{"Wickham Farms"}</dd>
+          </div>
+        </dl>
       </div>
     </article>
   );
