@@ -22,20 +22,21 @@ export const Kitchen = ({ kitchenId }) => {
         <h2 className="text-lg font-semibold text-black mb-0.5">
           {kitchen.name}
         </h2>
-        <dl className="flex flex-wrap text-sm font-medium whitespace-pre">
-          <div>
-            <dt className="sr-only">id</dt>
-            <dd>
-              <abbr title={`id: ${kitchen.id}`}>id: {kitchen.id}</abbr>
-            </dd>
-          </div>
-          <div>
-            <dt className="sr-only">id</dt>
-            <dd> · {kitchen.id}</dd>
+        <dl>
+          <div className="flex-none w-full mt-0.5 font-normal">
+            <dt className="inline">id</dt>
+            {": "}
+            <dd className="inline text-black">{kitchen.id}</dd>
           </div>
           <div className="flex-none w-full mt-0.5 font-normal">
-            <dt className="inline">Part of </dt>{" "}
-            <dd className="inline text-black">{"Wickham Farms"}</dd>
+            <dt className="inline">name</dt>
+            {": "}
+            <dd className="inline text-black">{kitchen.name}</dd>
+          </div>
+          <div className="flex-none w-full mt-0.5 font-normal">
+            <dt className="inline">buildingId</dt>
+            {": "}
+            <dd className="inline text-black">{kitchen.buildingId}</dd>
           </div>
         </dl>
       </div>
