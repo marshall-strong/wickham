@@ -24,22 +24,26 @@ export const PaperProduct = ({ paperProductId }) => {
         <h2 className="text-lg font-semibold text-black mb-0.5">
           {paperProduct.name}
         </h2>
-        <dl className="flex flex-wrap text-sm font-medium whitespace-pre">
-          <div>
-            <dt className="sr-only">id</dt>
-            <dd>
-              <abbr title={`id: ${paperProduct.id}`}>
-                id: {paperProduct.id}
-              </abbr>
-            </dd>
-          </div>
-          <div>
-            <dt className="sr-only">id</dt>
-            <dd> · {paperProduct.id}</dd>
+        <dl>
+          <div className="flex-none w-full mt-0.5 font-normal">
+            <dt className="inline">id</dt>
+            {": "}
+            <dd className="inline text-black">{paperProduct.id}</dd>
           </div>
           <div className="flex-none w-full mt-0.5 font-normal">
-            <dt className="inline">Part of </dt>{" "}
-            <dd className="inline text-black">{"Wickham Farms"}</dd>
+            <dt className="inline">name</dt>
+            {": "}
+            <dd className="inline text-black">{paperProduct.name}</dd>
+          </div>
+          <div className="flex-none w-full mt-0.5 font-normal">
+            <dt className="inline">productId</dt>
+            {": "}
+            <dd className="inline text-black">{paperProduct.productId}</dd>
+          </div>
+          <div className="flex-none w-full mt-0.5 font-normal">
+            <dt className="inline">recipeId</dt>
+            {": "}
+            <dd className="inline text-black">{paperProduct.recipeId}</dd>
           </div>
         </dl>
       </div>
