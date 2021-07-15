@@ -3,6 +3,8 @@ json.recipes do
     json.set! recipe.id do
       json.id recipe.id
       json.name recipe.name
+      json.directions recipe.directions
+      json.prepKitchenId recipe.prep_kitchen_id
     end
   end
 end

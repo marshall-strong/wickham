@@ -3,6 +3,9 @@ json.products do
     json.set! product.id do
       json.id product.id
       json.name product.name
+      json.description product.description
+      json.partNo product.part_no
+      json.vendorId product.vendor_id
     end
   end
 end
