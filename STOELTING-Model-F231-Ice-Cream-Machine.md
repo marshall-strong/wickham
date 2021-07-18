@@ -27,7 +27,7 @@ All ice cream machines must be disassembled, cleaned, and sanitized at least twi
 
 ## DIAGRAMS
 
-[/files/StoeltingF231/StoeltingF231_AugerShaftAndFaceplateParts.png]
+![diagram](./files/StoeltingF231/StoeltingF231_AugerShaftAndFaceplateParts.png)
 
 ## DRAINING PRODUCT
 
