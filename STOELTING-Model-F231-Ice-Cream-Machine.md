@@ -2,9 +2,9 @@
 
 ![STOELTING Model F231](files/StoeltingF231/StoeltingF231_machine.png)
 
-As of Summer 2021, this machine is currently located in [Shakes & Cakes](https://github.com/marshall-strong/wickham/wiki/Shakes-&-Cakes) in the [Food Barn](https://github.com/marshall-strong/wickham/wiki/Shakes-&-Cakes).
+As of Summer 2021, this machine is currently located in **Shakes & Cakes** in the **Food Barn**.
 
-[The information in this documentation is taken primarily from the manual for STOELTING Model F231 Service Manual.](../../files/manuals/stoelting_f231_service_manual.pdf)
+[The information in this documentation is from the [STOELTING Model F231 Service Manual](files/manuals/stoelting_f231_service_manual.pdf).
 
 All ice cream machines must be disassembled, cleaned, and sanitized at least twice a week. Ideally this should be done at the end of the day with enough time for the machine to air dry and be reassembled and refilled before employees go home for the evening.
 
@@ -23,7 +23,7 @@ All ice cream machines must be disassembled, cleaned, and sanitized at least twi
 * **32 quart plastic container** -- for draining any remaining ice cream out of the machine before cleaning it (stored upstairs in the Main Barn)
 
 ![32 quart plastic container](files/32ozPlasticContainer.jpeg)
-
+q
 * **8 quart red sanitizer bucket (the larger size)** -- for pouring water into machine and for mixing Stera Sheen sanitizer (stored in the Food Barn kitchens)
 
 ![8 quart red sanitizer bucket ](files/RedSanitizerBucket8Quarts.jpg)
