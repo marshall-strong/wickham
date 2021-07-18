@@ -27,7 +27,7 @@ All ice cream machines must be disassembled, cleaned, and sanitized at least twi
 
 ## DIAGRAMS
 
-![diagram](./files/StoeltingF231/StoeltingF231_AugerShaftAndFaceplateParts.png)
+![diagram](./files/StoeltingF231/StoeltingF231Diagram.png)
 
 ## DRAINING PRODUCT
 
@@ -39,6 +39,8 @@ All ice cream mix must be emptied out of the machines before they can be cleaned
 
 2. Once the ice cream is no longer flowing readily, stop filling the 32 quart containers. Open the lid of the hopper and remove the mix inlet assembly (see diagram). Set it aside to be cleaned later.
 
+![mix inlet assembly](./files/StoeltingF231/StoeltingF231_MixInletAssembly.png)
+
 3. Press the CLEAN button. This will start a 5 minute cleaning cycle where the auger spins to help melt any ice cream mix still in the machine. Let the machine run for the entire 5 minute cycle.
 
 4. The CLEAN cycle should stop automatically after 5 minutes. Open the spigots and drain any remaining ice cream mix into the 8 quart red plastic sanitizer bucket. Discard the ice cream mix in the three basin sink, then rinse out the red plastic sanitizer bucket.
@@ -49,9 +51,7 @@ Before the machine can be properly cleaned and sanitized, all ice cream mix rema
 
 **Repeat these steps for each of the machine's two hoppers/freezing cylinders**
 
-1.
-
-Fill the red plastic bucket with 8 quarts (2 gallons) of cool tap water.
+1. Fill the red plastic bucket with 8 quarts (2 gallons) of cool tap water.
 
 2. Pour the water into the hopper, then press the CLEAN button to initiate a 5 minute cleaning cycle.
 
@@ -80,6 +80,8 @@ When sanitizing the inside of the ice cream machine, it is important to use the 
 5. Once the CLEAN cycle stops after 5 minutes, open the spigots and drain the sanitizing solution back into the 8 quart red bucket.
 
 6. Once the solution has drained, press the CLEAN button to stop the auger. Place the red bucket back under the spigot and allow any remaining water in the freezing cylinder to drain completely.
+
+7. Wash the hopper lid in the dishwasher. As soon as the lid is dry, recover the hopper to prevent any contaminates from falling into the freshly sanitized hopper.
 
 ## DISASSEMBLING
 
@@ -146,6 +148,8 @@ Ideally, ice cream machines should be reassembled and refilled the same day they
 11. Place the front door assembly on the mounting studs and the push front door against the machine carefully.
 
 12. Secure the front door to the machine by placing the knobs on the studs and tightening until finger tight. Do not overtighten. A proper o-ring seal can be observed through the transparent front door.
+
+13. Insert the Mix Inlet Assembly back into its hole in the bottom of the hopper.
 
 ## REFILLING
 
