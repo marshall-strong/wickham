@@ -37,9 +37,11 @@ All ice cream mix must be emptied out of the machines before they can be cleaned
 
 1. Ice cream in the machine at the time of cleaning should be drained into a 32 quart plastic container. Open the spigot on the machine like you normally would, and fill 32 quart containers until the ice cream stops flowing readily. Full 32 quart containers should be stored in the walk-in freezer by the Shop or in the Food Barn freezer.
 
-2. Once the ice cream is no longer flowing readily, stop filling the 32 quart containers and press the CLEAN button. This will start a 5 minute cleaning cycle where the auger spins to help melt any ice cream mix still in the machine. Let the machine run for the entire 5 minute cycle.
+2. Once the ice cream is no longer flowing readily, stop filling the 32 quart containers. Open the lid of the hopper and remove the mix inlet assembly (see diagram). Set it aside to be cleaned later.
 
-3. The CLEAN cycle should stop automatically after 5 minutes. Open the spigots and drain any remaining ice cream mix into the 8 quart red plastic sanitizer bucket. Discard the ice cream mix in the three basin sink, then rinse out the red plastic sanitizer bucket.
+3. Press the CLEAN button. This will start a 5 minute cleaning cycle where the auger spins to help melt any ice cream mix still in the machine. Let the machine run for the entire 5 minute cycle.
+
+4. The CLEAN cycle should stop automatically after 5 minutes. Open the spigots and drain any remaining ice cream mix into the 8 quart red plastic sanitizer bucket. Discard the ice cream mix in the three basin sink, then rinse out the red plastic sanitizer bucket.
 
 ## RINSING HOPPERS
 
