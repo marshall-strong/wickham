@@ -46,15 +46,25 @@ All ice cream machines must be disassembled, cleaned, and sanitized at least twi
 
 ![Taylor 8754 Diagram](files/Taylor8754/Taylor8754_FullDiagram.png)
 
+![Taylor 8754 Interface](files/Taylor8754/Taylor8754_Interface.png)
+
 ## DRAINING PRODUCT
 
 All ice cream mix must be emptied out of the machines before they can be cleaned. To avoid waste, extra ice cream is drained into 32 quart containers and frozen for later in the walk-in freezer. 32 quart plastic containers are stored upstairs in the Main Barn.
 
 **Repeat these steps for each of the machine's two hoppers/freezing cylinders**
 
-1. Ice cream in the machine at the time of cleaning should be drained into a 32 quart plastic container. Open the spigot on the machine like you normally would, and fill 32 quart containers until the ice cream stops flowing readily. Once filled, 32 quart containers should be stored in the walk-in freezer by the Shop or in the Food Barn freezer.
+1. Ice cream in the machine at the time of cleaning should be drained into a 32 quart plastic container. Open the spigot on the machine like you normally would, and fill 32 quart containers until the ice cream stops flowing readily. Once filled, 32 quart containers should be stored in the walk-in freezer by the Shop or in the Food Barn freezer. Stop filling 32 quart containers once the ice cream is no longer flowing readily.
 
-2. Once the ice cream is no longer flowing readily, stop filling the 32 quart containers.
+2. Press the AUTO button to stop the compressor and the beater motor.
+
+3. Press the MIX REF button to shut off the hopper's mix refrigeration system.
+
+4. Remove the hopper cover and gasket. Take these parts to the sink for cleaning.
+
+5. Place the red bucket below the hopper's spout, then press the WASH and PUMP buttons.
+
+6. Pull down on the draw handle to drain the remaining ice cream mix out of the hopper and freezing cylinder and into the red bucket. When the flow of ice cream mix stops, close the draw valve and press the WASH and PUMP buttons.
 
 ## RINSING HOPPERS
 
@@ -62,15 +72,13 @@ Before the machine can be properly cleaned and sanitized, all ice cream mix rema
 
 **Repeat these steps for each of the machine's two hoppers/freezing cylinders**
 
-1. Fill the red plastic bucket with 8 quarts (2 gallons) of warm tap water.
+1. Fill the red plastic bucket with 8 quarts (2 gallons) of cool tap water.
 
-2. Pour the water into the hopper, then press the WASH button for the hopper you are working on (see image). This will initiate a cleaning cycle where the auger spins to help melt any ice cream mix still in the machine.
+2. Pour the water into the hopper, then press the WASH button for the hopper you are working on. This will initiate a cleaning cycle where the auger spins to help melt any ice cream mix still in the machine.
 
-![Taylor 8754 Interface](files/Taylor8754/Taylor8754_Interface.png)
+3. While the WASH cycle is running, use a brush or rag to clean off any ice cream that is stuck to the sides of the hopper, the mix inlet hole, and the mix level sensing probe.
 
-3. While the WASH cycle is running, use a brush or rag to clean off any ice cream that is stuck to the sides of the hopper.
-
-4. After a few minutes, press the WASH button again to stop the cleaning cycle. Once it ends, open the spigot and drain any remaining ice cream mix into the 8 quart red plastic sanitizer bucket. Discard the ice cream mix in the three basin sink, then rinse out the red plastic sanitizer bucket.
+4. After a few minutes, open the spigot and drain the water into the 8 quart red plastic sanitizer bucket. Once the water has stopped flowing, press the WASH button to turn off the auger. Discard the water in the three basin sink, then rinse out the red plastic sanitizer bucket.
 
 5. If the water flowing out of the hopper is not clear, repeat steps 1-5 as many times as necessary until the water draining into the bucket is no longer milky.
 
@@ -86,13 +94,13 @@ When sanitizing the inside of the ice cream machine, it is important to use the 
 
 3. Press the WASH button to start the auger in the freezing cylinder.
 
-4. While the WASH cycle is running, use a sponge or rag to wipe down the inside walls of the hopper to make sure that all ice cream mix is removed and that the solution sanitizes the entire hopper. Make sure to get around the mix level probe.
+4. While the WASH cycle is running, use a sponge or rag to wipe down the inside walls of the hopper to make sure that all ice cream mix is removed and that the solution sanitizes the entire hopper. Make sure to get around the mix inlet hole and the mix level sensing probe.
 
 5. Press the WASH button again after 5 minutes to stop the cleaning cycle. Place the red bucket back under the spigot.
 
 6. Open the spigot and allow the sanitizing solution to drain out of the hopper and freezing tube and into the bucket.
 
-7. Wash the hopper lid in the dishwasher. As soon as the lid is dry, place it back over the hopper to prevent any contaminates from falling into the freshly sanitized hopper.
+7. As soon as the lid to the hopper is washed and dried, place it back over the hopper to prevent any contaminates from falling into the freshly sanitized hopper.
 
 ## DISASSEMBLING
 
@@ -104,7 +112,7 @@ Pro Tip: When taking the machine apart for cleaning, keep the disassembled parts
 
 3. Unscrew the four knobs/hand-screws that hold the freezer door assembly in place.
 
-4. Remove the freezer door assembly by pulling it forward off of the studs, and take to the sink for cleaning.
+4. Remove the freezer door assembly by pulling it forward off of the studs, and take it to the sink for cleaning.
 
 5. Remove the beaters, beater shoes, scraper blades, and drive shafts from inside the freezing cylinders, and take them to the sink for cleaning.
 
@@ -145,6 +153,8 @@ Pro Tip: When taking the machine apart for cleaning, keep the disassembled parts
 ## REASSEMBLING
 
 Ideally, ice cream machines should be reassembled and refilled the same day they are cleaned and sanitized, after the ice cream machine and the disassembled parts have been given time to air dry. This will give the ice cream time to freeze overnight.
+
+1.
 
 ## REFILLING
 
