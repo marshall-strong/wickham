@@ -2,21 +2,21 @@
 
 ![STOELTING Model F231](files/StoeltingF231/StoeltingF231_machine.png)
 
-As of Summer 2021, this machine is currently located in [Shakes & Cakes](https://github.com/marshall-strong/wickham/wiki/Shakes-&-Cakes) in the [Food Barn](https://github.com/marshall-strong/wickham/wiki/Shakes-&-Cakes).
+As of Summer 2021, this machine is currently located in **Shakes & Cakes** in the **Food Barn**.
 
-[The information in this documentation is taken primarily from the manual for STOELTING Model F231 Service Manual.](../../files/manuals/stoelting_f231_service_manual.pdf)
+[The information in this documentation is from the [STOELTING Model F231 Service Manual](files/manuals/stoelting_f231_service_manual.pdf).
 
 All ice cream machines must be disassembled, cleaned, and sanitized at least twice a week. Ideally this should be done at the end of the day with enough time for the machine to air dry and be reassembled and refilled before employees go home for the evening.
 
 ## SECTIONS
-* [You Will Need:](https://github.com/marshall-strong/wickham/wiki/STOELTING-Model-F231-Ice-Cream-Machine#you-will-need)
-* [Draining Product](https://github.com/marshall-strong/wickham/wiki/STOELTING-Model-F231-Ice-Cream-Machine#draining-product)
-* [Rinsing](https://github.com/marshall-strong/wickham/wiki/STOELTING-Model-F231-Ice-Cream-Machine#rinsing-hoppers)
-* [Sanitizing](https://github.com/marshall-strong/wickham/wiki/STOELTING-Model-F231-Ice-Cream-Machine#sanitizing-hoppers)
-* [Disassembling](https://github.com/marshall-strong/wickham/wiki/STOELTING-Model-F231-Ice-Cream-Machine#disassembling)
-* [Cleaning](https://github.com/marshall-strong/wickham/wiki/STOELTING-Model-F231-Ice-Cream-Machine#cleaning)
-* [Reassembling](https://github.com/marshall-strong/wickham/wiki/STOELTING-Model-F231-Ice-Cream-Machine#reassembling)
-* [Refilling](https://github.com/marshall-strong/wickham/wiki/STOELTING-Model-F231-Ice-Cream-Machine#refilling)
+* [You Will Need:](https://github.com/marshall-strong/wickham/blob/main/STOELTING-Model-F231-Ice-Cream-Machine.md#you-will-need)
+* [Draining Product](https://github.com/marshall-strong/wickham/blob/main/STOELTING-Model-F231-Ice-Cream-Machine.md#draining-product)
+* [Rinsing](https://github.com/marshall-strong/wickham/blob/main/STOELTING-Model-F231-Ice-Cream-Machine.md#rinsing-hoppers)
+* [Sanitizing](https://github.com/marshall-strong/wickham/blob/main/STOELTING-Model-F231-Ice-Cream-Machine.md#sanitizing-hoppers)
+* [Disassembling](https://github.com/marshall-strong/wickham/blob/main/STOELTING-Model-F231-Ice-Cream-Machine.md#disassembling)
+* [Cleaning](https://github.com/marshall-strong/wickham/blob/main/STOELTING-Model-F231-Ice-Cream-Machine.md#cleaning)
+* [Reassembling](https://github.com/marshall-strong/wickham/blob/main/STOELTING-Model-F231-Ice-Cream-Machine.md#reassembling)
+* [Refilling](https://github.com/marshall-strong/wickham/blob/main/STOELTING-Model-F231-Ice-Cream-Machine.md#refilling)
 
 ## YOU WILL NEED:
 
@@ -54,17 +54,11 @@ All ice cream mix must be emptied out of the machines before they can be cleaned
 
 **Repeat these steps for each of the machine's two hoppers/freezing cylinders**
 
-1. Ice cream in the machine at the time of cleaning should be drained into a 32 quart plastic container. Open the spigot on the machine like you normally would, and fill 32 quart containers until the ice cream stops flowing readily. Once filled, 32 quart containers should be stored in the walk-in freezer by the Shop or in the Food Barn freezer.
+1. Ice cream in the machine at the time of cleaning should be drained into a 32 quart plastic container. Open the spigot on the machine like you normally would, and fill 32 quart containers until the ice cream stops flowing readily. Once filled, 32 quart containers should be stored in the walk-in freezer by the Shop or in the Food Barn freezer. Stop filling 32 quart containers once the ice cream is no longer flowing readily.
 
-2. Once the ice cream is no longer flowing readily, stop filling the 32 quart containers. Open the lid of the hopper and remove the mix inlet assembly (see image). Set it aside to be cleaned later.
+2. Open the lid of the hopper and remove the mix inlet assembly (see image). Set it aside to be cleaned later.
 
 ![mix inlet assembly](./files/StoeltingF231/StoeltingF231_MixInletAssembly.png)
-
-3. Press the CLEAN button for the hopper you are working on (see image). This will start a 5 minute cleaning cycle where the auger spins to help melt any ice cream mix still in the machine. Let the machine run for the entire 5 minute cycle.
-
-![IntelliTec2 controls](files/StoeltingF231/StoeltingF231_IntelliTec2Controls.png)
-
-4. The CLEAN cycle should stop automatically after 5 minutes. Open the spigots and drain any remaining ice cream mix into the 8 quart red plastic sanitizer bucket. Discard the ice cream mix in the three basin sink, then rinse out the red plastic sanitizer bucket.
 
 ## RINSING HOPPERS
 
@@ -74,15 +68,17 @@ Before the machine can be properly cleaned and sanitized, all ice cream mix rema
 
 1. Fill the red plastic bucket with 8 quarts (2 gallons) of cool tap water.
 
-2. Pour the water into the hopper, then press the CLEAN button to initiate a 5 minute cleaning cycle.
+2. Pour the water into the hopper, then press the CLEAN button for the hopper you are working on (see image) to initiate a 5 minute cleaning cycle where the auger spins to help melt any ice cream mix still in the machine.
+
+![IntelliTec2 controls](files/StoeltingF231/StoeltingF231_IntelliTec2Controls.png)
 
 3. While the CLEAN cycle is running, use a brush or rag to clean off any ice cream that is stuck to the sides of the hopper.
 
-4. Once the CLEAN cycle ends, open the spigots and drain all of the water out of the hopper and into the red plastic bucket.
+4. The CLEAN cycle should stop automatically after 5 minutes. Once it ends, open the spigots and drain the water into the 8 quart red plastic sanitizer bucket. Discard the water in the three basin sink, then rinse out the red plastic sanitizer bucket.
 
 5. If the water flowing out of the hopper is not clear, repeat steps 1-5 as many times as necessary until the water draining into the bucket is no longer milky.
 
-6. If a hopper needs another CLEAN cycle run but the machine says 'MAXIMUM CLEANING TIME REACHED', try turning the hopper off and on again.
+6. If a hopper needs to run another CLEAN cycle but the machine says 'MAXIMUM CLEANING TIME REACHED', try turning the hopper off and on again.
 
 ## SANITIZING HOPPERS
 
@@ -98,15 +94,15 @@ When sanitizing the inside of the ice cream machine, it is important to use the 
 
 4. While the CLEAN cycle is running, use a sponge or rag to wipe down the inside walls of the hopper to make sure that all ice cream mix is removed and that the solution sanitizes the entire hopper. Make sure to get around the mix level probe.
 
-5. Once the CLEAN cycle stops after 5 minutes, open the spigots and drain the sanitizing solution back into the 8 quart red bucket.
+5. Once the CLEAN cycle stops after 5 minutes, place the red bucket under the spigot.
 
-6. Once the solution has drained, press the CLEAN button to stop the auger. Place the red bucket back under the spigot and allow any remaining water in the freezing cylinder to drain completely.
+6. Open the spigot and allow the sanitizing solution to drain out of the hopper and freezing tube and into the bucket.
 
-7. Wash the hopper lid in the dishwasher. As soon as the lid is dry, recover the hopper to prevent any contaminates from falling into the freshly sanitized hopper.
+7. Wash the hopper lid in the dishwasher. As soon as the lid is dry, place it back over the hopper to prevent any contaminates from falling into the freshly sanitized hopper.
 
 ## DISASSEMBLING
 
-When taking the machine apart for cleaning, keep the disassembled parts in one of the dishwasher racks (the kind without pegs) to avoid losing any.
+Pro Tip: When taking the machine apart for cleaning, keep the disassembled parts in one of the dishwasher racks (the kind without pegs) to avoid losing any.
 
 ### Disassembling the Front Door
 
