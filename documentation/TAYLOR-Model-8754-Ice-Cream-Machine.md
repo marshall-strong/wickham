@@ -2,7 +2,7 @@
 
 ![TAYLOR Model 8754-27](files/Taylor8754/Taylor8754_Photo.jpeg)
 
-As of Sumer 2021, this machine is currently located in the Bakery in the Main Barn.
+As of Sumer 2021, this ice cream machine is currently located in the **Bakery** in the **Main Barn**.
 
 All ice cream machines must be disassembled, cleaned, and sanitized at least twice a week. Ideally this should be done at the end of the day with enough time for the machine to air dry and be reassembled and refilled before employees go home for the evening.
 
