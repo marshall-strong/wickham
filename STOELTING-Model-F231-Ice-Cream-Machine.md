@@ -8,7 +8,7 @@ All ice cream machines must be disassembled, cleaned, and sanitized at least twi
 
 The information in this documentation comes from the [STOELTING Model F231 Service Manual](files/manuals/stoelting_f231_service_manual.pdf).
 
-## SECTIONS
+# SECTIONS
 * You Will Need:
 * Diagrams
 * Draining Product
@@ -19,7 +19,7 @@ The information in this documentation comes from the [STOELTING Model F231 Servi
 * Reassembling Parts
 * Refilling Hoppers
 
-## YOU WILL NEED:
+# YOU WILL NEED:
 
 * **32 quart plastic container** -- for draining any remaining ice cream out of the machine before cleaning it (stored upstairs in the Main Barn)
 
@@ -45,11 +45,11 @@ The information in this documentation comes from the [STOELTING Model F231 Servi
 
 ![Sanitary Lubricant](files/sanitaryLubricant.jpeg)
 
-## DIAGRAMS
+# DIAGRAMS
 
 ![diagram](./files/StoeltingF231/StoeltingF231Diagram.png)
 
-## DRAINING PRODUCT
+# DRAINING PRODUCT
 
 All ice cream mix must be emptied out of the machines before they can be cleaned. To avoid waste, extra ice cream is drained into 32 quart containers and frozen for later in the walk-in freezer. 32 quart plastic containers are stored upstairs in the Main Barn.
 
@@ -61,7 +61,7 @@ All ice cream mix must be emptied out of the machines before they can be cleaned
 
 ![mix inlet assembly](./files/StoeltingF231/StoeltingF231_MixInletAssembly.png)
 
-## RINSING HOPPERS
+# RINSING HOPPERS
 
 Before the machine can be properly cleaned and sanitized, all ice cream mix remaining in the hoppers and freezing cylinders must be flushed out with water.
 
@@ -81,7 +81,7 @@ Before the machine can be properly cleaned and sanitized, all ice cream mix rema
 
 6. If a hopper needs to run another CLEAN cycle but the machine says 'MAXIMUM CLEANING TIME REACHED', try turning the hopper off and on again.
 
-## SANITIZING HOPPERS
+# SANITIZING HOPPERS
 
 When sanitizing the inside of the ice cream machine, it is important to use the **Stera Sheen Green Label Sanitizer & Cleaner (Milkstone Remover)** and **NOT** the normal Sanibet sanitizer that is dispensed at the three basin sinks. The dairy in ice cream mix causes mineral salts to build up in our ice cream machines -- these mineral deposits are called milkstone, and they require a special chemical in order to be removed (hence the Stera Sheen).
 
@@ -101,11 +101,11 @@ When sanitizing the inside of the ice cream machine, it is important to use the 
 
 7. Wash the hopper lid in the dishwasher. As soon as the lid is dry, place it back over the hopper to prevent any contaminates from falling into the freshly sanitized hopper.
 
-## DISASSEMBLING PARTS
+# DISASSEMBLING PARTS
 
 Pro Tip: When taking the machine apart for cleaning, keep the disassembled parts in one of the dishwasher racks (the kind without pegs) to avoid losing any.
 
-### Disassembling the Front Door
+## Disassembling the Front Door
 
 ![Front Door Assembly ](files/StoeltingF231/StoeltingF231_FrontDoorAssembly.png)
 
@@ -121,7 +121,7 @@ Pro Tip: When taking the machine apart for cleaning, keep the disassembled parts
 
 ![Removing O-Rings ](files/StoeltingF231/StoeltingF231_RemovingORings.png)
 
-### Disassembling the Auger Shaft
+## Disassembling the Auger Shaft
 
 ![Auger Shaft ](files/StoeltingF231/StoeltingF231AugerShaft.png)
 
@@ -133,7 +133,7 @@ Pro Tip: When taking the machine apart for cleaning, keep the disassembled parts
 
 3. Once the auger is out, remove the **Rear Auger Seal** and the **Rear Seal O-Ring** from the other end of the auger shaft.
 
-## CLEANING & SANITIZING PARTS
+# CLEANING & SANITIZING PARTS
 
 1. Remove the **Drip Tray** and the 2 **Drain Trays** from the machine (see image). They can be washed by hand or in the dishwasher.
 
@@ -155,7 +155,7 @@ Pro Tip: When taking the machine apart for cleaning, keep the disassembled parts
 
 7. Use a clean, dry towel to wipe the exterior of the machine dry.
 
-## REASSEMBLING PARTS
+# REASSEMBLING PARTS
 
 Ideally, ice cream machines should be reassembled and refilled the same day they are cleaned and sanitized, after the ice cream machine and the disassembled parts have been given time to air dry. This will give the ice cream time to freeze overnight.
 
@@ -191,7 +191,7 @@ Ideally, ice cream machines should be reassembled and refilled the same day they
 
 13. Insert the **Mix Inlet Assembly** back into its hole in the bottom of the hopper.
 
-## REFILLING HOPPERS
+# REFILLING HOPPERS
 
 1. Only refill the ice cream machine once it has been properly cleaned, sanitized, allowed to air dry, and reassembled.
 
@@ -206,14 +206,3 @@ Ideally, ice cream machines should be reassembled and refilled the same day they
 6. Press the PUSH TO FREEZE button.
 
 7. Once the ice cream in the machine is at 75% consistency, the display will change to read "SERVE". At this point you may open the spigot and begin to dispense product.
-
-
-
-
-
-
-
-
-
-
-''

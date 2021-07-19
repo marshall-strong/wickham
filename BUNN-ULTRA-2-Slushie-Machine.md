@@ -8,7 +8,7 @@ All slushie machines must be disassembled, cleaned, and sanitized at least twice
 
 The information in this documentation comes from the [BUNN ULTRA-1 ULTRA-2 Installation & Operating Guide](files/manuals/Bunn_Operating_Manual.pdf).
 
-## SECTIONS
+# SECTIONS
 * You Will Need:
 * Diagrams
 * Draining Product
@@ -17,7 +17,7 @@ The information in this documentation comes from the [BUNN ULTRA-1 ULTRA-2 Insta
 * Reassembling Parts
 * Refilling Hoppers
 
-## YOU WILL NEED:
+# YOU WILL NEED:
 
 * **large bucket** -- for use emptying product and rinsing the machine
 
@@ -31,9 +31,9 @@ The information in this documentation comes from the [BUNN ULTRA-1 ULTRA-2 Insta
 
 ![Metered Chemical Dispenser](files/ProFillChemicalDispenser.jpg)
 
-## DIAGRAMS
+# DIAGRAMS
 
-### OPERATING CONTROLS
+## OPERATING CONTROLS
 
 * There are 5 buttons used when operating the dispenser:
 
@@ -41,27 +41,27 @@ The information in this documentation comes from the [BUNN ULTRA-1 ULTRA-2 Insta
 
   1. ![Power Button](files/BunnUltra2/BunnUltra2_OperatingControls_Power.png)
 
-    * This switch is the ON/OFF toggle switch which powers up the dispenser and the LCD display. When ON the Date and Time toggle back and forth continously except during programming.
+    This switch is the ON/OFF toggle switch which powers up the dispenser and the LCD display. When ON the Date and Time toggle back and forth continously except during programming.
 
   2. ![Auger Button (left hopper)](files/BunnUltra2/BunnUltra2_OperatingControls_Auger.png)
 
-    * This is used to turn the left side auger motor to AUGER ON, or AUGER OFF.
+    This is used to turn the left side auger motor to AUGER ON, or AUGER OFF.
 
   3. ![Ice Button (left hopper)](files/BunnUltra2/BunnUltra2_OperatingControls_Ice.png)
 
-    * This is used to turn the left side ice control to OFF, ICE or CHILL.
+    This is used to turn the left side ice control to OFF, ICE or CHILL.
 
   4. ![Auger Button (right hopper)](files/BunnUltra2/BunnUltra2_OperatingControls_Auger.png)
 
-    * This is used to turn the right side auger motor to AUGER ON, or AUGER OFF.
+    This is used to turn the right side auger motor to AUGER ON, or AUGER OFF.
 
   5. ![Ice Button (right hopper)](files/BunnUltra2/BunnUltra2_OperatingControls_Ice.png)
 
-    * This is used to turn the right side ice control to OFF, ICE or CHILL.
+    This is used to turn the right side ice control to OFF, ICE or CHILL.
 
   6. Hidden buttons used for Programming.
 
-## DRAINING PRODUCT
+# DRAINING PRODUCT
 
 1. Use the ICE button to select the OFF option.
 
@@ -71,9 +71,9 @@ The information in this documentation comes from the [BUNN ULTRA-1 ULTRA-2 Insta
 
 3. Once all product has drained out of the machine, use the AUGER button to select the AUGER OFF option.
 
-## DISASSEMBLING PARTS
+# DISASSEMBLING PARTS
 
-1. Disconnect the hopper lid lamp cord(s) and remove the lids.
+1. Disconnect the hopper lid lamp cords and remove the lids.
 
 2. Depress the hopper lock plunger. Lift the hopper up slightly.
 
@@ -107,7 +107,7 @@ The information in this documentation comes from the [BUNN ULTRA-1 ULTRA-2 Insta
 
 ![Disassembly Figure 09](files/BunnUltra2/BunnUltra2_Disassemble_Figure09.png)
 
-## CLEANING & SANITIZING PARTS
+# CLEANING & SANITIZING PARTS
 
 * Set up a three basin sink with the normal wash, rinse, and sanitization stations. The wash sink should be filled with FrontLine detergent from the metered dispenser, while the sanitization sink should be filled with Sanibet sanitizer, also from the metered dispenser.
 
@@ -123,7 +123,7 @@ The information in this documentation comes from the [BUNN ULTRA-1 ULTRA-2 Insta
 
 * Allow all parts time to air dry before reassembling the dispenser.
 
-## REASSEMBLING PARTS
+# REASSEMBLING PARTS
 
 1. Install the seals over the flange at the rear of the cooling drums and press the seals firmly into place as shown.
 
@@ -167,7 +167,7 @@ The information in this documentation comes from the [BUNN ULTRA-1 ULTRA-2 Insta
 
 11. Turn ON augers and colling function to desired settings.
 
-## REFILLING HOPPERS
+# REFILLING HOPPERS
 
 * Lift the lid slightly for the selected hopper and slide it back to gain access to the hopper.
 

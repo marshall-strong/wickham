@@ -8,7 +8,7 @@ All ice cream machines must be disassembled, cleaned, and sanitized at least twi
 
 The information in this documentation comes from the [TAYLOR Operating Instructions for Pump Style Soft Serve Freezers Models 8751/8754](files/manuals/taylor_8754_user_manual.pdf).
 
-## SECTIONS
+# SECTIONS
 * You Will Need:
 * Diagrams
 * Draining Product
@@ -19,7 +19,7 @@ The information in this documentation comes from the [TAYLOR Operating Instructi
 * Reassembling Parts
 * Refilling Hoppers
 
-## YOU WILL NEED:
+# YOU WILL NEED:
 
 * **32 quart plastic container** -- for draining any remaining ice cream out of the machine before cleaning it (stored upstairs in the Main Barn)
 
@@ -45,13 +45,13 @@ The information in this documentation comes from the [TAYLOR Operating Instructi
 
 ![Sanitary Lubricant](files/sanitaryLubricant.jpeg)
 
-## DIAGRAMS
+# DIAGRAMS
 
 ![Taylor 8754 Diagram](files/Taylor8754/Taylor8754_FullDiagram.png)
 
 ![Taylor 8754 Interface](files/Taylor8754/Taylor8754_Interface.png)
 
-## DRAINING PRODUCT
+# DRAINING PRODUCT
 
 All ice cream mix must be emptied out of the machines before they can be cleaned. To avoid waste, extra ice cream is drained into 32 quart containers and frozen for later in the walk-in freezer. 32 quart plastic containers are stored upstairs in the Main Barn.
 
@@ -69,7 +69,7 @@ All ice cream mix must be emptied out of the machines before they can be cleaned
 
 6. Pull down on the draw handle to drain the remaining ice cream mix out of the hopper and freezing cylinder and into the red bucket. When the flow of ice cream mix stops, close the draw valve and press the WASH and PUMP buttons.
 
-## RINSING HOPPERS
+# RINSING HOPPERS
 
 Before the machine can be properly cleaned and sanitized, all ice cream mix remaining in the hoppers and freezing cylinders must be flushed out with water.
 
@@ -85,7 +85,7 @@ Before the machine can be properly cleaned and sanitized, all ice cream mix rema
 
 5. If the water flowing out of the hopper is not clear, repeat steps 1-5 as many times as necessary until the water draining into the bucket is no longer milky.
 
-## SANITIZING HOPPERS
+# SANITIZING HOPPERS
 
 When sanitizing the inside of the ice cream machine, it is important to use the **Stera Sheen Green Label Sanitizer & Cleaner (Milkstone Remover)** and **NOT** the normal Sanibet sanitizer that is dispensed at the three basin sinks. The dairy in ice cream mix causes mineral salts to build up in our ice cream machines -- these mineral deposits are called milkstone, and they require a special chemical in order to be removed (hence the Stera Sheen).
 
@@ -119,7 +119,7 @@ When sanitizing the inside of the ice cream machine, it is important to use the 
 
 * Assemble the hopper gasket around the top edge of the mix hopper.
 
-## DISASSEMBLING PARTS
+# DISASSEMBLING PARTS
 
 Pro Tip: When taking the machine apart for cleaning, keep the disassembled parts in one of the dishwasher racks (the kind without pegs) to avoid losing any.
 
@@ -149,7 +149,7 @@ Pro Tip: When taking the machine apart for cleaning, keep the disassembled parts
 
 13. Remove the two large black rubber gaskets (big o-rings) from their grooves on the back side of the freezer door assembly.
 
-## CLEANING & SANITIZING PARTS
+# CLEANING & SANITIZING PARTS
 
 1. Set up a three basin sink with the normal wash, rinse, and sanitize stations. The normal Sanibet Sanitizer that is dispensed from the sink is fine (no need to to use the Stera Sheen Sanitizer this time).
 
@@ -167,7 +167,7 @@ Pro Tip: When taking the machine apart for cleaning, keep the disassembled parts
 
 7. Use a clean, dry towel to wipe the exterior of the machine dry.
 
-## REASSEMBLING PARTS
+# REASSEMBLING PARTS
 
 Ideally, ice cream machines should be reassembled and refilled the same day they are cleaned and sanitized, after the ice cream machine and the disassembled parts have been given time to air dry. This will give the ice cream time to freeze overnight.
 
@@ -201,7 +201,7 @@ Ideally, ice cream machines should be reassembled and refilled the same day they
 
 3. Step 3: Assemble the freezer door.
 
-* Place the large rubber gaskets into the grooves on the back side of the freezer door. Slide the white plastic front bearings over the baffle rods onto the bearing hubs making certain that the flanged end of the bearing is resting against the freezer door. DO NOT LUBRICATE THE GASKET(S) OR THE FRONT BEARING(S).
+* Place the large rubber gaskets into the grooves on the back side of the freezer door. Slide the white plastic front bearings over the baffle rods onto the bearing hubs making certain that the flanged end of the bearing is resting against the freezer door. DO NOT LUBRICATE THE GASKETS OR THE FRONT BEARINGS.
 
 ![Figure 07](files/Taylor8754/Taylor8754_Figure07.png)
 
@@ -265,7 +265,7 @@ Ideally, ice cream machines should be reassembled and refilled the same day they
 
 ![Figure 18](files/Taylor8754/Taylor8754_Figure18.png)
 
-## REFILLING HOPPERS
+# REFILLING HOPPERS
 
 * Place an empty pail beneath the door spout and lower the draw handle. Be sure the prime plug is still in the UP position. Pour two gallons of fresh mix into the hopper and allow it to flow into the freezing cylinder. This will force out any remaining sanitizing solution. When full strength mix is flowing from the door spout, raise the draw handle.
 
