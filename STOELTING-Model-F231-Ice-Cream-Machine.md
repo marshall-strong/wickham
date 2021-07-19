@@ -9,14 +9,14 @@ As of Summer 2021, this machine is currently located in **Shakes & Cakes** in th
 All ice cream machines must be disassembled, cleaned, and sanitized at least twice a week. Ideally this should be done at the end of the day with enough time for the machine to air dry and be reassembled and refilled before employees go home for the evening.
 
 ## SECTIONS
-* [You Will Need:](https://github.com/marshall-strong/wickham/blob/main/STOELTING-Model-F231-Ice-Cream-Machine.md#you-will-need)
-* [Draining Product](https://github.com/marshall-strong/wickham/blob/main/STOELTING-Model-F231-Ice-Cream-Machine.md#draining-product)
-* [Rinsing](https://github.com/marshall-strong/wickham/blob/main/STOELTING-Model-F231-Ice-Cream-Machine.md#rinsing-hoppers)
-* [Sanitizing](https://github.com/marshall-strong/wickham/blob/main/STOELTING-Model-F231-Ice-Cream-Machine.md#sanitizing-hoppers)
-* [Disassembling](https://github.com/marshall-strong/wickham/blob/main/STOELTING-Model-F231-Ice-Cream-Machine.md#disassembling)
-* [Cleaning](https://github.com/marshall-strong/wickham/blob/main/STOELTING-Model-F231-Ice-Cream-Machine.md#cleaning)
-* [Reassembling](https://github.com/marshall-strong/wickham/blob/main/STOELTING-Model-F231-Ice-Cream-Machine.md#reassembling)
-* [Refilling](https://github.com/marshall-strong/wickham/blob/main/STOELTING-Model-F231-Ice-Cream-Machine.md#refilling)
+* You Will Need:
+* Draining Product
+* Rinsing
+* Sanitizing
+* Disassembling
+* Cleaning
+* Reassembling
+* Refilling
 
 ## YOU WILL NEED:
 
