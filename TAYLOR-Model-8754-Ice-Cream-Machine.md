@@ -102,7 +102,7 @@ When sanitizing the inside of the ice cream machine, it is important to use the 
 
 ![Figure 36](files/Taylor8754/Taylor8754_Figure36.png)
 
-* With an empty pail beneath the door spout(s), raise the prime plug and press the PUMP key.
+* With an empty pail beneath the door spouts, raise the prime plug and press the PUMP key.
 
 ![Figure 37](files/Taylor8754/Taylor8754_Figure37.png)
 
@@ -110,7 +110,7 @@ When sanitizing the inside of the ice cream machine, it is important to use the 
 
 ![Figure 38](files/Taylor8754/Taylor8754_Figure38.png)
 
-* Once the sanitizer stops flowing from the door spout(s), raise the draw handle(s). Press the WASH and PUMP keys, cancelling the beater motor and pump operation.
+* Once the sanitizer stops flowing from the door spouts, raise the draw handles. Press the WASH and PUMP keys, cancelling the beater motor and pump operation.
 
 ![Figure 39](files/Taylor8754/Taylor8754_Figure39.png)
 
@@ -211,7 +211,7 @@ Ideally, ice cream machines should be reassembled and refilled the same day they
 
 3. Step 3: Assemble the freezer door.
 
-* Place the large rubber gasket(s) into the groove(s) on the back side of the freezer door. Slide the white plastic front bearing(s) over the baffle rod(s) onto the bearing hub(s) making certain that the flanged end of the bearing is resting against the freezer door. DO NOT LUBRICATE THE GASKET(S) OR THE FRONT BEARING(S).
+* Place the large rubber gaskets into the grooves on the back side of the freezer door. Slide the white plastic front bearings over the baffle rods onto the bearing hubs making certain that the flanged end of the bearing is resting against the freezer door. DO NOT LUBRICATE THE GASKET(S) OR THE FRONT BEARING(S).
 
 ![Figure 07](files/Taylor8754/Taylor8754_Figure07.png)
 
@@ -231,7 +231,7 @@ Ideally, ice cream machines should be reassembled and refilled the same day they
 
 4. Step 4: Install the freezer door.
 
-* Insert the baffle rod(s) through the opening in the beater(s) and seat the door flush with the freezing cylinder. With the door seated on the freezer studs, install the handscrews. Tighten equally in a crisscross pattern to insure the door is snug.
+* Insert the baffle rods through the opening in the beaters and seat the door flush with the freezing cylinder. With the door seated on the freezer studs, install the handscrews. Tighten equally in a crisscross pattern to insure the door is snug.
 
 * Note that on the Model 8754, the short handscrews go on the bottom and the long handscrews go on the top.
 
@@ -243,13 +243,13 @@ Ideally, ice cream machines should be reassembled and refilled the same day they
 
 ![Figure 12](files/Taylor8754/Taylor8754_Figure12.png)
 
-* Lubricate the inside of the freezer door spout(s), top and bottom, and insert the draw valve(s) from the bottom until the slot in the draw valve(s) comes into view.
+* Lubricate the inside of the freezer door spouts, top and bottom, and insert the draw valves from the bottom until the slot in the draw valves comes into view.
 
 ![Figure 13](files/Taylor8754/Taylor8754_Figure13.png)
 
 6. Step 6: Install the draw handles.
 
-* Install the adjustable draw handle(s). Slide the o-ring into the groove on the pivot pin, and lubricate.
+* Install the adjustable draw handles. Slide the o-ring into the groove on the pivot pin, and lubricate.
 
 ![Figure 14](files/Taylor8754/Taylor8754_Figure14.png)
 
@@ -259,13 +259,13 @@ Ideally, ice cream machines should be reassembled and refilled the same day they
 
 7. Step 7: Install the design caps.
 
-* Snap the design cap(s) over the end of the door spout(s).
+* Snap the design caps over the end of the door spouts.
 
 ![Figure 16](files/Taylor8754/Taylor8754_Figure16.png)
 
 8. Step 8: Install the front drip tray and splash shield.
 
-* Install the front drip tray and the splash shield under the door spout(s).
+* Install the front drip tray and the splash shield under the door spouts.
 
 ![Figure 17](files/Taylor8754/Taylor8754_Figure17.png)
 
@@ -291,23 +291,4 @@ Ideally, ice cream machines should be reassembled and refilled the same day they
 
 * Note: The MIX REF light will come on, indicating the mix refrigeration system is maintaining mix in the mix hopper.
 
-* Place the mix hopper cover in position.
-
-
-
-
-
-
-
-
-
-
-
-
-4. While the WASH cycle is running, use a sponge or rag to wipe down the inside walls of the hopper to make sure that all ice cream mix is removed and that the solution sanitizes the entire hopper. Make sure to get around the mix inlet hole and the mix level sensing probe.
-
-5. Press the WASH button again after 5 minutes to stop the cleaning cycle. Place the red bucket back under the spigot.
-
-6. Open the spigot and allow the sanitizing solution to drain out of the hopper and freezing tube and into the bucket.
-
-7. As soon as the lid to the hopper is washed and dried, place it back over the hopper to prevent any contaminates from falling into the freshly sanitized hopper.
+* Place the washed and dried lid to the hopper back in position.
