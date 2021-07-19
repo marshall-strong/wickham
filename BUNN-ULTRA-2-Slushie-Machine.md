@@ -33,13 +33,43 @@ The information in this documentation comes from the [BUNN ULTRA-1 ULTRA-2 Insta
 
 ## DIAGRAMS
 
+### OPERATING CONTROLS
+
+* There are 5 buttons used when operating the dispenser:
+
+![Operating Controls](files/BunnUltra2/BunnUltra2_OperatingControls.png)
+
+  1. ![Power Button](files/BunnUltra2/BunnUltra2_OperatingControls_Power.png)
+
+    * This switch is the ON/OFF toggle switch which powers up the dispenser and the LCD display. When ON the Date and Time toggle back and forth continously except during programming.
+
+  2. ![Auger Button (left hopper)](files/BunnUltra2/BunnUltra2_OperatingControls_Auger.png)
+
+    * This is used to turn the left side auger motor to AUGER ON, or AUGER OFF.
+
+  3. ![Ice Button (left hopper)](files/BunnUltra2/BunnUltra2_OperatingControls_Ice.png)
+
+    * This is used to turn the left side ice control to OFF, ICE or CHILL.
+
+  4. ![Auger Button (right hopper)](files/BunnUltra2/BunnUltra2_OperatingControls_Auger.png)
+
+    * This is used to turn the right side auger motor to AUGER ON, or AUGER OFF.
+
+  5. ![Ice Button (right hopper)](files/BunnUltra2/BunnUltra2_OperatingControls_Ice.png)
+
+    * This is used to turn the right side ice control to OFF, ICE or CHILL.
+
+  6. Hidden buttons used for Programming.
+
 ## DRAINING PRODUCT
 
-1. Turn cooling to OFF selection.
+1. Use the ICE button to select the OFF option.
 
-2. Empty all product from the hoppers.
+2. Use the AUGER button to select the AUGER ON option (if the auger isn't on already).
 
-3. Turn auger to OFF selection.
+2. Open the spigot and empty all product from the hoppers into a large bucket, then discard.
+
+3. Once all product has drained out of the machine, use the AUGER button to select the AUGER OFF option.
 
 ## DISASSEMBLING PARTS
 
@@ -145,9 +175,15 @@ The information in this documentation comes from the [BUNN ULTRA-1 ULTRA-2 Insta
 
 * Press and release the "POWER" (ON/OFF) button to power on the dispenser.
 
+![POWER Button](files/BunnUltra2/BunnUltra2_OperatingControls_Power.png)
+
 * Press and release the "AUGER" (ON/OFF) button to start the Auger Motor.
 
+![AUGER Button](files/BunnUltra2/BunnUltra2_OperatingControls_Auger.png)
+
 * Press and release the "ICE" (OFF/ICE/CHILL) button and select ICE to begin the cooling process for the selected hopper.
+
+![ICE Button](files/BunnUltra2/BunnUltra2_OperatingControls_Ice.png)
 
 * Wait for the liquid to freeze to the desired consistency before serving.
 
