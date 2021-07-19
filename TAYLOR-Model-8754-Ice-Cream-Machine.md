@@ -6,15 +6,18 @@ As of Sumer 2021, this machine is currently located in the Bakery in the Main Ba
 
 All ice cream machines must be disassembled, cleaned, and sanitized at least twice a week. Ideally this should be done at the end of the day with enough time for the machine to air dry and be reassembled and refilled before employees go home for the evening.
 
+The information in this documentation comes from the [TAYLOR Operating Instructions for Pump Style Soft Serve Freezers Models 8751/8754](files/manuals/taylor_8754_user_manual.pdf).
+
 ## SECTIONS
 * You Will Need:
+* Diagrams
 * Draining Product
-* Rinsing
-* Sanitizing
-* Disassembling
-* Cleaning
-* Reassembling
-* Refilling
+* Rinsing Hoppers
+* Sanitizing Hoppers
+* Disassembling Parts
+* Cleaning & Sanitizing Parts
+* Reassembling Parts
+* Refilling Hoppers
 
 ## YOU WILL NEED:
 
@@ -116,20 +119,7 @@ When sanitizing the inside of the ice cream machine, it is important to use the 
 
 * Assemble the hopper gasket around the top edge of the mix hopper.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-## DISASSEMBLING
+## DISASSEMBLING PARTS
 
 Pro Tip: When taking the machine apart for cleaning, keep the disassembled parts in one of the dishwasher racks (the kind without pegs) to avoid losing any.
 
@@ -159,7 +149,7 @@ Pro Tip: When taking the machine apart for cleaning, keep the disassembled parts
 
 13. Remove the two large black rubber gaskets (big o-rings) from their grooves on the back side of the freezer door assembly.
 
-## CLEANING
+## CLEANING & SANITIZING PARTS
 
 1. Set up a three basin sink with the normal wash, rinse, and sanitize stations. The normal Sanibet Sanitizer that is dispensed from the sink is fine (no need to to use the Stera Sheen Sanitizer this time).
 
@@ -177,7 +167,7 @@ Pro Tip: When taking the machine apart for cleaning, keep the disassembled parts
 
 7. Use a clean, dry towel to wipe the exterior of the machine dry.
 
-## REASSEMBLING
+## REASSEMBLING PARTS
 
 Ideally, ice cream machines should be reassembled and refilled the same day they are cleaned and sanitized, after the ice cream machine and the disassembled parts have been given time to air dry. This will give the ice cream time to freeze overnight.
 
@@ -275,7 +265,7 @@ Ideally, ice cream machines should be reassembled and refilled the same day they
 
 ![Figure 18](files/Taylor8754/Taylor8754_Figure18.png)
 
-## REFILLING
+## REFILLING HOPPERS
 
 * Place an empty pail beneath the door spout and lower the draw handle. Be sure the prime plug is still in the UP position. Pour two gallons of fresh mix into the hopper and allow it to flow into the freezing cylinder. This will force out any remaining sanitizing solution. When full strength mix is flowing from the door spout, raise the draw handle.
 
