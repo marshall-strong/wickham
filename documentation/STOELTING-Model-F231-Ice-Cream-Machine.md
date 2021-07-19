@@ -2,7 +2,7 @@
 
 ![STOELTING Model F231](files/StoeltingF231/StoeltingF231_machine.png)
 
-As of Summer 2021, this machine is currently located in **Shakes & Cakes** in the **Food Barn**.
+As of Summer 2021, this ice cream machine is currently located in **Shakes & Cakes** in the **Food Barn**.
 
 All ice cream machines must be disassembled, cleaned, and sanitized at least twice a week. Ideally this should be done at the end of the day with enough time for the machine to air dry and be reassembled and refilled before employees go home for the evening.
 
