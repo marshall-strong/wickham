@@ -1,8 +1,49 @@
 # BUNN ULTRA-2 Slushie Machine
 
-## RECOMMENDED CLEANING
+![BUNN ULTRA-2](files/BunnUltra2/BunnUltra2_image.png)
 
-1. Turn cooling to OFF selection. Empty all product from the hopper(s). Turn auger to OFF selection. Disconnect the hopper lid lamp cord(s) and remove the lids.
+As of Sumer 2021, this machine is currently located in the Bakery in the Main Barn.
+
+All slushie machines must be disassembled, cleaned, and sanitized at least twice a week. Ideally this should be done at the end of the day with enough time for the machine to air dry and be reassembled and refilled before employees go home for the evening.
+
+The information in this documentation comes from the [BUNN ULTRA-1 ULTRA-2 Installation & Operating Guide](files/manuals/Bunn_Operating_Manual.pdf).
+
+## SECTIONS
+* You Will Need:
+* Diagrams
+* Draining Product
+* Disassembling Parts
+* Cleaning & Sanitizing Parts
+* Reassembling Parts
+* Refilling Hoppers
+
+## YOU WILL NEED:
+
+* **large bucket** -- for use emptying product and rinsing the machine
+
+![8 quart red sanitizer bucket ](files/RedSanitizerBucket8Quarts.jpg)
+
+* **Clean white dish towels** -- for wiping down the machine (located in the white laundry baskets)
+
+![Dish towels](files/whiteDishTowel.jpeg)
+
+* **Three Basin Sink with metered chemical dispensers** -- for cleaning and sanitizing the disassembled parts of the machine
+
+![Metered Chemical Dispenser](files/ProFillChemicalDispenser.jpg)
+
+## DIAGRAMS
+
+## DRAINING PRODUCT
+
+1. Turn cooling to OFF selection.
+
+2. Empty all product from the hoppers.
+
+3. Turn auger to OFF selection.
+
+## DISASSEMBLING PARTS
+
+1. Disconnect the hopper lid lamp cord(s) and remove the lids.
 
 2. Depress the hopper lock plunger. Lift the hopper up slightly.
 
@@ -36,15 +77,23 @@
 
 ![Disassembly Figure 09](files/BunnUltra2/BunnUltra2_Disassemble_Figure09.png)
 
-10. Place all parts in a clean sink with mild hot water (120°F) and sanitizer solution. Allow all parts to soak for at least 5 minutes. Carefully wash all components with a clean wash cloth in the hot water and sanitizer solution. Use a clean, soft bristle brush as needed for the smaller components and tight areas. Do not immerse hopper lids. Use a commercial sanitizer that has 100 ppm of available chlorine with a concentration level of at least 3% available chlorine (KAY-5 Sanitizer). Follow the sanitizer’s mixing instructions to ensure 100 ppm of available chlorine.
+## CLEANING & SANITIZING PARTS
 
-11. Wash the drums, hopper drip trays, top covers, and outer enclosure using a clean wash cloth that has been dampened in the hot water and sanitizer solution. Pay particular attention to the shaft area and make sure it is thoroughly cleaned and sanitized.
+* Set up a three basin sink with the normal wash, rinse, and sanitization stations. The wash sink should be filled with FrontLine detergent from the metered dispenser, while the sanitization sink should be filled with Sanibet sanitizer, also from the metered dispenser.
 
-12. Thoroughly rinse all surfaces with a clean wash cloth that has been dampened with hot water. Wipe dry with a clean dry wash cloth before reassembling the dispenser.
+* Carefully wash all disassembled parts in the sinks. Use a sponge or a clean, soft bristle brush as needed in order to clean the smaller components and tight areas.
 
-* NOTE – Although most parts are dishwasher safe, they may be affected by the chemicals in some commercial sanitizing agents. Do not place the hopper nor hopper lids in a dishwasher. Rinse thoroughly before assembly
+* Once washed, sanitize the disassembled parts in the Sanibet sanitizing solution. Allow all parts to remain in the sanitizer for at least 5 minutes.
 
-## ASSEMBLY FOLLOWING CLEANING
+* Be careful not to immerse the hopper lid in water to avoid damaging the electronic components. Use a clean white rag and a bucket of red sanitizing solution to wipe the lid's surfaces clean, then use another clean rag to dry it.
+
+* Use a clean white rag and a bucket of red sanitizing solution  wash the cooling drums, the hopper drip trays, and the exterior of the BUNN ULTRA-2 machine. Pay particular attention to the shaft area and make sure it is thoroughly cleaned and sanitized.
+
+* Thoroughly rinse all surfaces with a clean wash cloth that has been dampened with hot water.
+
+* Allow all parts time to air dry before reassembling the dispenser.
+
+## REASSEMBLING PARTS
 
 1. Install the seals over the flange at the rear of the cooling drums and press the seals firmly into place as shown.
 
@@ -87,3 +136,19 @@
 ![Reassembly Figure 10](files/BunnUltra2/BunnUltra2_Reassemble_Figure10.png)
 
 11. Turn ON augers and colling function to desired settings.
+
+## REFILLING HOPPERS
+
+* Lift the lid slightly for the selected hopper and slide it back to gain access to the hopper.
+
+* Pour the pre-mixed liquid product into the hopper.
+
+* Press and release the "POWER" (ON/OFF) button to power on the dispenser.
+
+* Press and release the "AUGER" (ON/OFF) button to start the Auger Motor.
+
+* Press and release the "ICE" (OFF/ICE/CHILL) button and select ICE to begin the cooling process for the selected hopper.
+
+* Wait for the liquid to freeze to the desired consistency before serving.
+
+* HINTS: Bunn-O-Matic recommends that the product in the dispenser be thawed each day, usually overnight. The ice granules get too large and a consistent product is difficult to maintain if left frozen for an extended period of time. Set the NIGHT mode for a few hours each night and return it to the DAY mode when the product has thawed sufficiently. You’ll know it is in the NIGHT mode because the display will indicate NIGHT MODE, and the hopper lights will turn off.
