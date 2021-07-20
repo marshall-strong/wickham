@@ -1,2 +1,3 @@
-json.extract! paper_product, :id, :name, :created_at, :updated_at
-json.url paper_product_url(paper_product, format: :json)
+json.set! paper_product.id do
+  json.extract! paper_product, :id, :name, :product_id, :recipe_id, :created_at, :updated_at
+end
