@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :ncr_items
   namespace :api, defaults: { format: :json } do
     namespace :v1 do
       get '/buildings', to: 'buildings#index'

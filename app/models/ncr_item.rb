@@ -1,0 +1,2 @@
+class NcrItem < ApplicationRecord
+end
