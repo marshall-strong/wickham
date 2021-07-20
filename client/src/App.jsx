@@ -13,7 +13,7 @@ import Products from "./features/products/Products";
 import Recipes from "./features/recipes/Recipes";
 import PaperProducts from "./features/paperProducts/PaperProducts";
 import FoodProducts from "./features/foodProducts/FoodProducts";
-import Vendors from "./features/vendors/Vendors";
+import VendorsIndex from "./features/vendors/VendorsIndex";
 import "./App.css";
 
 const App = () => {
@@ -29,7 +29,7 @@ const App = () => {
           <Route exact path="/recipes" component={Recipes} />
           <Route exact path="/paper_products" component={PaperProducts} />
           <Route exact path="/food_products" component={FoodProducts} />
-          <Route exact path="/vendors" component={Vendors} />
+          <Route exact path="/vendors" component={VendorsIndex} />
           <Redirect to="/" />
         </Switch>
       </Router>
