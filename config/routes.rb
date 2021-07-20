@@ -10,6 +10,7 @@ Rails.application.routes.draw do
       get '/paper_products', to: 'paper_products#index'
       get '/food_products', to: 'food_products#index'
       get '/vendors', to: 'vendors#index'
+      get '/vendors/:vendor_id', to: 'vendors#show'
     end
   end
 
