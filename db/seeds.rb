@@ -7,6 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 # Destroy existing seeds
+NcrItem.destroy_all
 FoodProduct.destroy_all
 PaperProduct.destroy_all
 Recipe.destroy_all
@@ -66,6 +67,39 @@ cheese_pizza_crust = FoodProduct.create!(name: "pizza crust", product: regional_
 cheese_pizza_sauce = FoodProduct.create!(name: "pizza sauce", product: regional_pizza_sauce, recipe: cheese_pizza_recipe)
 cheese_pizza_cheese = FoodProduct.create!(name: "mozzarella cheese", product: regional_mozzarella_cheese, recipe: cheese_pizza_recipe)
 
+# Ncr Items
 
+cheese_pizza_only_ncr = NcrItem.create!(external_id: 2326805, category: "Pizza Porch", item_name: "Cheese Pizza Only", description: nil, variation_types: nil, variations: nil, barcode: nil, track_inventory: "Y", prompt_for_price: "N", unit_cost: nil, price: 8.95, sold_by_weight_measure: "N", tax_category: "8%", available_for_sale_on_pos: "Y", available_for_sale_online: nil, online_item_name: nil, package_cost: nil, units_per_package: 1, primary_vendor: nil, units_on_hand: nil, modified_by_1: nil, modifier_group_1_external_id: nil, modified_by_2: nil, modifier_group_2_external_id: nil, modified_by_3: nil, modifier_group_3_external_id: nil, modified_by_4: nil, modifier_group_4_external_id: nil, modified_by_5: nil, modifier_group_5_external_id: nil)
+
+# external_id: 2326805,
+# category: "Pizza Porch",
+# item_name: "Cheese Pizza Only",
+# description: nil,
+# variation_types: nil,
+# variations: nil,
+# barcode: nil,
+# track_inventory: "Y",
+# prompt_for_price: "N",
+# unit_cost: nil,
+# price: 8.95,
+# sold_by_weight_measure: "N",
+# tax_category: "8%",
+# available_for_sale_on_pos: "Y",
+# available_for_sale_online: nil,
+# online_item_name: nil,
+# package_cost: nil,
+# units_per_package: 1,
+# primary_vendor: nil,
+# units_on_hand: nil,
+# modified_by_1: nil,
+# modifier_group_1_external_id: nil,
+# modified_by_2: nil,
+# modifier_group_2_external_id: nil,
+# modified_by_3: nil,
+# modifier_group_3_external_id: nil,
+# modified_by_4: nil,
+# modifier_group_4_external_id: nil,
+# modified_by_5: nil,
+# modifier_group_5_external_id: nil,
 
 # Invoices (includes quotes)
