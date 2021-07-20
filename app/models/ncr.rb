@@ -1,3 +1,0 @@
-class Ncr < ApplicationRecord
-
-end

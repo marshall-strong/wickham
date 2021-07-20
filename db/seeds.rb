@@ -7,7 +7,6 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 # Destroy existing seeds
-Ncr.destroy_all
 FoodProduct.destroy_all
 PaperProduct.destroy_all
 Recipe.destroy_all
@@ -67,6 +66,6 @@ cheese_pizza_crust = FoodProduct.create!(name: "pizza crust", product: regional_
 cheese_pizza_sauce = FoodProduct.create!(name: "pizza sauce", product: regional_pizza_sauce, recipe: cheese_pizza_recipe)
 cheese_pizza_cheese = FoodProduct.create!(name: "mozzarella cheese", product: regional_mozzarella_cheese, recipe: cheese_pizza_recipe)
 
-# NCRs
+
 
 # Invoices (includes quotes)

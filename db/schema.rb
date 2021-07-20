@@ -55,36 +55,6 @@ ActiveRecord::Schema.define(version: 2021_07_07_190102) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "ncr_categories", force: :cascade do |t|
-    t.string "name"
-    t.integer "department_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "ncr_departments", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "ncr_items", force: :cascade do |t|
-    t.integer "category_id"
-    t.string "item_name"
-    t.boolean "is_active_at_pos"
-    t.boolean "is_active_online"
-    t.string "description"
-    t.float "sales_price"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "ncrs", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "paper_products", force: :cascade do |t|
     t.string "name"
     t.integer "product_id"

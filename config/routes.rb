@@ -19,13 +19,10 @@ Rails.application.routes.draw do
   #   !request.xhr? && request.format.html?
   # end
 
-  # resources :ncr_items
-  # resources :ncr_categories
-  # resources :ncr_departments
+
   # resources :buildings
   # resources :kitchens
   # resources :recipes
-  # resources :ncrs
   # resources :vendors
   # resources :products
   # resources :food_products
