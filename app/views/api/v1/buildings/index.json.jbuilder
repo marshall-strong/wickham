@@ -1,10 +1,5 @@
 json.buildings do
   @buildings.each do |building|
-    json.set! building.id do
-      json.id building.id
-      json.name building.name
-    end
+    json.partial! 'api/v1/buildings/building', building: building
   end
 end
-
-# json.array! @buildings, partial: "buildings/building", as: :building
