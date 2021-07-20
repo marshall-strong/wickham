@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :ncr_items
   namespace :api, defaults: { format: :json } do
     namespace :v1 do
       get '/buildings', to: 'buildings#index'
@@ -19,13 +20,10 @@ Rails.application.routes.draw do
   #   !request.xhr? && request.format.html?
   # end
 
-  # resources :ncr_items
-  # resources :ncr_categories
-  # resources :ncr_departments
+
   # resources :buildings
   # resources :kitchens
   # resources :recipes
-  # resources :ncrs
   # resources :vendors
   # resources :products
   # resources :food_products

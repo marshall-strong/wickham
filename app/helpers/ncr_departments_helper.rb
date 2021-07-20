@@ -1,2 +1,0 @@
-module NcrDepartmentsHelper
-end

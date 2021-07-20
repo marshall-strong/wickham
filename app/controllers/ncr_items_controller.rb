@@ -64,6 +64,6 @@ class NcrItemsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def ncr_item_params
-      params.require(:ncr_item).permit(:category_id, :item_name, :is_active_at_pos, :is_active_online, :description, :sales_price)
+      params.require(:ncr_item).permit(:external_id, :category, :item_name, :description, :variation_types, :variations, :barcode, :track_inventory, :prompt_for_price, :unit_cost, :price, :sold_by_weight_measure, :tax_category, :available_for_sale_on_pos, :available_for_sale_online, :online_item_name, :package_cost, :units_per_package, :primary_vendor, :units_on_hand, :modified_by_1, :modifier_group_1_external_id, :modified_by_2, :modifier_group_2_external_id, :modified_by_3, :modifier_group_3_external_id, :modified_by_4, :modifier_group_4_external_id, :modified_by_5, :modifier_group_5_external_id)
     end
 end

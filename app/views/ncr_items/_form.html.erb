@@ -1,0 +1,167 @@
+<%= form_with(model: ncr_item) do |form| %>
+  <% if ncr_item.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(ncr_item.errors.count, "error") %> prohibited this ncr_item from being saved:</h2>
+
+      <ul>
+        <% ncr_item.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :external_id %>
+    <%= form.number_field :external_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :category %>
+    <%= form.text_field :category %>
+  </div>
+
+  <div class="field">
+    <%= form.label :item_name %>
+    <%= form.text_field :item_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_field :description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :variation_types %>
+    <%= form.text_field :variation_types %>
+  </div>
+
+  <div class="field">
+    <%= form.label :variations %>
+    <%= form.text_field :variations %>
+  </div>
+
+  <div class="field">
+    <%= form.label :barcode %>
+    <%= form.text_field :barcode %>
+  </div>
+
+  <div class="field">
+    <%= form.label :track_inventory %>
+    <%= form.text_field :track_inventory %>
+  </div>
+
+  <div class="field">
+    <%= form.label :prompt_for_price %>
+    <%= form.text_field :prompt_for_price %>
+  </div>
+
+  <div class="field">
+    <%= form.label :unit_cost %>
+    <%= form.text_field :unit_cost %>
+  </div>
+
+  <div class="field">
+    <%= form.label :price %>
+    <%= form.text_field :price %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sold_by_weight_measure %>
+    <%= form.text_field :sold_by_weight_measure %>
+  </div>
+
+  <div class="field">
+    <%= form.label :tax_category %>
+    <%= form.text_field :tax_category %>
+  </div>
+
+  <div class="field">
+    <%= form.label :available_for_sale_on_pos %>
+    <%= form.text_field :available_for_sale_on_pos %>
+  </div>
+
+  <div class="field">
+    <%= form.label :available_for_sale_online %>
+    <%= form.text_field :available_for_sale_online %>
+  </div>
+
+  <div class="field">
+    <%= form.label :online_item_name %>
+    <%= form.text_field :online_item_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :package_cost %>
+    <%= form.text_field :package_cost %>
+  </div>
+
+  <div class="field">
+    <%= form.label :units_per_package %>
+    <%= form.number_field :units_per_package %>
+  </div>
+
+  <div class="field">
+    <%= form.label :primary_vendor %>
+    <%= form.text_field :primary_vendor %>
+  </div>
+
+  <div class="field">
+    <%= form.label :units_on_hand %>
+    <%= form.number_field :units_on_hand %>
+  </div>
+
+  <div class="field">
+    <%= form.label :modified_by_1 %>
+    <%= form.text_field :modified_by_1 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :modifier_group_1_external_id %>
+    <%= form.number_field :modifier_group_1_external_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :modified_by_2 %>
+    <%= form.text_field :modified_by_2 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :modifier_group_2_external_id %>
+    <%= form.number_field :modifier_group_2_external_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :modified_by_3 %>
+    <%= form.text_field :modified_by_3 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :modifier_group_3_external_id %>
+    <%= form.number_field :modifier_group_3_external_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :modified_by_4 %>
+    <%= form.text_field :modified_by_4 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :modifier_group_4_external_id %>
+    <%= form.number_field :modifier_group_4_external_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :modified_by_5 %>
+    <%= form.text_field :modified_by_5 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :modifier_group_5_external_id %>
+    <%= form.number_field :modifier_group_5_external_id %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

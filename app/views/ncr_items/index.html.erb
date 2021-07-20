@@ -1,0 +1,85 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Ncr Items</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>External</th>
+      <th>Category</th>
+      <th>Item name</th>
+      <th>Description</th>
+      <th>Variation types</th>
+      <th>Variations</th>
+      <th>Barcode</th>
+      <th>Track inventory</th>
+      <th>Prompt for price</th>
+      <th>Unit cost</th>
+      <th>Price</th>
+      <th>Sold by weight measure</th>
+      <th>Tax category</th>
+      <th>Available for sale on pos</th>
+      <th>Available for sale online</th>
+      <th>Online item name</th>
+      <th>Package cost</th>
+      <th>Units per package</th>
+      <th>Primary vendor</th>
+      <th>Units on hand</th>
+      <th>Modified by 1</th>
+      <th>Modifier group 1 external</th>
+      <th>Modified by 2</th>
+      <th>Modifier group 2 external</th>
+      <th>Modified by 3</th>
+      <th>Modifier group 3 external</th>
+      <th>Modified by 4</th>
+      <th>Modifier group 4 external</th>
+      <th>Modified by 5</th>
+      <th>Modifier group 5 external</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @ncr_items.each do |ncr_item| %>
+      <tr>
+        <td><%= ncr_item.external_id %></td>
+        <td><%= ncr_item.category %></td>
+        <td><%= ncr_item.item_name %></td>
+        <td><%= ncr_item.description %></td>
+        <td><%= ncr_item.variation_types %></td>
+        <td><%= ncr_item.variations %></td>
+        <td><%= ncr_item.barcode %></td>
+        <td><%= ncr_item.track_inventory %></td>
+        <td><%= ncr_item.prompt_for_price %></td>
+        <td><%= ncr_item.unit_cost %></td>
+        <td><%= ncr_item.price %></td>
+        <td><%= ncr_item.sold_by_weight_measure %></td>
+        <td><%= ncr_item.tax_category %></td>
+        <td><%= ncr_item.available_for_sale_on_pos %></td>
+        <td><%= ncr_item.available_for_sale_online %></td>
+        <td><%= ncr_item.online_item_name %></td>
+        <td><%= ncr_item.package_cost %></td>
+        <td><%= ncr_item.units_per_package %></td>
+        <td><%= ncr_item.primary_vendor %></td>
+        <td><%= ncr_item.units_on_hand %></td>
+        <td><%= ncr_item.modified_by_1 %></td>
+        <td><%= ncr_item.modifier_group_1_external_id %></td>
+        <td><%= ncr_item.modified_by_2 %></td>
+        <td><%= ncr_item.modifier_group_2_external_id %></td>
+        <td><%= ncr_item.modified_by_3 %></td>
+        <td><%= ncr_item.modifier_group_3_external_id %></td>
+        <td><%= ncr_item.modified_by_4 %></td>
+        <td><%= ncr_item.modifier_group_4_external_id %></td>
+        <td><%= ncr_item.modified_by_5 %></td>
+        <td><%= ncr_item.modifier_group_5_external_id %></td>
+        <td><%= link_to 'Show', ncr_item %></td>
+        <td><%= link_to 'Edit', edit_ncr_item_path(ncr_item) %></td>
+        <td><%= link_to 'Destroy', ncr_item, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Ncr Item', new_ncr_item_path %>

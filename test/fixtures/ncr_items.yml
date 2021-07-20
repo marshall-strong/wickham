@@ -1,17 +1,65 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  category_id: 1
+  external_id: 1
+  category: MyString
   item_name: MyString
-  is_active_at_pos: false
-  is_active_online: false
   description: MyString
-  sales_price: 1.5
+  variation_types: MyString
+  variations: MyString
+  barcode: MyString
+  track_inventory: MyString
+  prompt_for_price: MyString
+  unit_cost: 1.5
+  price: 1.5
+  sold_by_weight_measure: MyString
+  tax_category: MyString
+  available_for_sale_on_pos: MyString
+  available_for_sale_online: MyString
+  online_item_name: MyString
+  package_cost: 1.5
+  units_per_package: 1
+  primary_vendor: MyString
+  units_on_hand: 1
+  modified_by_1: MyString
+  modifier_group_1_external_id: 1
+  modified_by_2: MyString
+  modifier_group_2_external_id: 1
+  modified_by_3: MyString
+  modifier_group_3_external_id: 1
+  modified_by_4: MyString
+  modifier_group_4_external_id: 1
+  modified_by_5: MyString
+  modifier_group_5_external_id: 1
 
 two:
-  category_id: 1
+  external_id: 1
+  category: MyString
   item_name: MyString
-  is_active_at_pos: false
-  is_active_online: false
   description: MyString
-  sales_price: 1.5
+  variation_types: MyString
+  variations: MyString
+  barcode: MyString
+  track_inventory: MyString
+  prompt_for_price: MyString
+  unit_cost: 1.5
+  price: 1.5
+  sold_by_weight_measure: MyString
+  tax_category: MyString
+  available_for_sale_on_pos: MyString
+  available_for_sale_online: MyString
+  online_item_name: MyString
+  package_cost: 1.5
+  units_per_package: 1
+  primary_vendor: MyString
+  units_on_hand: 1
+  modified_by_1: MyString
+  modifier_group_1_external_id: 1
+  modified_by_2: MyString
+  modifier_group_2_external_id: 1
+  modified_by_3: MyString
+  modifier_group_3_external_id: 1
+  modified_by_4: MyString
+  modifier_group_4_external_id: 1
+  modified_by_5: MyString
+  modifier_group_5_external_id: 1
