@@ -1,10 +1,5 @@
 json.vendors do
   @vendors.each do |vendor|
-    json.set! vendor.id do
-      json.id vendor.id
-      json.name vendor.name
-    end
+    json.partial! 'api/v1/vendors/vendor', vendor: vendor
   end
 end
-
-# json.array! @vendors, partial: "vendors/vendor", as: :vendor
