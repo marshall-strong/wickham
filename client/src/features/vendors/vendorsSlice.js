@@ -1,15 +1,14 @@
 import {
   createAsyncThunk,
   createEntityAdapter,
-  createSelector,
   createSlice,
 } from "@reduxjs/toolkit";
 import axios from "axios";
 
 export const fetchVendor = createAsyncThunk(
   "vendors/fetchVendor",
-  async (vendor_id) => {
-    const response = await axios.get(`/api/v1/vendors/${vendor_id}`);
+  async (id) => {
+    const response = await axios.get(`/api/v1/vendors/${id}`);
     return response.data;
   }
 );

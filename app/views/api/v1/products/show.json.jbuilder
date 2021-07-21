@@ -1,1 +1,3 @@
-json.partial! "products/product", product: @product
+json.products do
+  json.partial! 'api/v1/products/product', product: @product
+end

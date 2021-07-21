@@ -1,12 +1,5 @@
 json.recipes do
   @recipes.each do |recipe|
-    json.set! recipe.id do
-      json.id recipe.id
-      json.name recipe.name
-      json.directions recipe.directions
-      json.prepKitchenId recipe.prep_kitchen_id
-    end
+    json.partial! 'api/v1/recipes/recipe', recipe: recipe
   end
 end
-
-# json.array! @recipes, partial: "recipes/recipe", as: :recipe

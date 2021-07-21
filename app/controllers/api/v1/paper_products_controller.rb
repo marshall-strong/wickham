@@ -4,4 +4,10 @@ class Api::V1::PaperProductsController < ApiController
     @paper_products = PaperProduct.all
     render 'api/v1/paper_products/index'
   end
+
+  # @route GET /api/v1/paper_products/:paper_product_id
+  def show
+    @paper_product = PaperProduct.find(params[:paper_product_id])
+    render 'api/v1/paper_products/show'
+  end
 end
