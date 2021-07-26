@@ -1,7 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchVendors, selectVendorIds } from "./vendorsSlice";
-import VendorsIndexItems from "./VendorsIndexItems";
+import List from "../../app/lists/List";
+import VendorsIndexItem from "./VendorsIndexItem";
+
+const VendorsIndexItems = ({ vendorIds }) => {
+  return (
+    <div className="Vendors">
+      <List>
+        {vendorIds.map((id) => (
+          <VendorsIndexItem key={id} vendorId={id} />
+        ))}
+      </List>
+    </div>
+  );
+};
 
 const VendorsIndex = () => {
   const dispatch = useDispatch();
