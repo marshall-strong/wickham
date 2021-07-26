@@ -5,7 +5,7 @@ import {
   selectProductById,
   selectProductIds,
 } from "./productsSlice";
-import List from "../lists/List";
+import List from "../../app/lists/List";
 
 export const Product = ({ productId }) => {
   const product = useSelector((state) => selectProductById(state, productId));

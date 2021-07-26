@@ -5,8 +5,8 @@ import {
   Route,
   Switch,
 } from "react-router-dom";
-import Home from "./features/home/Home";
-import NavBar from "./features/nav/NavBar";
+import Home from "./app/home/Home";
+import NavBar from "./app/nav/NavBar";
 import Buildings from "./features/buildings/Buildings";
 import Kitchens from "./features/kitchens/Kitchens";
 import Products from "./features/products/Products";
@@ -14,7 +14,7 @@ import Recipes from "./features/recipes/Recipes";
 import PaperProducts from "./features/paperProducts/PaperProducts";
 import FoodProducts from "./features/foodProducts/FoodProducts";
 import VendorsIndex from "./features/vendors/VendorsIndex";
-import VendorsShow from "./features/vendors/VendorsShow";
+import VendorShow from "./features/vendors/VendorShow";
 import "./App.css";
 
 const App = () => {
@@ -31,7 +31,7 @@ const App = () => {
           <Route exact path="/paper_products" component={PaperProducts} />
           <Route exact path="/food_products" component={FoodProducts} />
           <Route exact path="/vendors" component={VendorsIndex} />
-          <Route exact path="/vendors/:vendor_id" component={VendorsShow} />
+          <Route exact path="/vendors/:vendor_id" component={VendorShow} />
           <Redirect to="/" />
         </Switch>
       </Router>

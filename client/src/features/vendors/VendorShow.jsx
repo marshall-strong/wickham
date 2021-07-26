@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchVendor } from "./vendorsSlice";
 import Vendor from "./Vendor";
 
-const VendorsShow = ({ match }) => {
+const VendorShow = ({ match }) => {
   const vendorId = parseInt(match.params.vendor_id);
   const dispatch = useDispatch();
   const [requestSent, setRequestSent] = useState(false);
@@ -26,17 +26,17 @@ const VendorsShow = ({ match }) => {
   } else if (fetchVendorStatus === "rejected") {
     content = (
       <div>
-        <p>Error in the `VendorsShow` component:</p>
+        <p>Error in the `VendorShow` component:</p>
         <p>the request `fetchVendor` was rejected!</p>
       </div>
     );
   } else {
     content = (
-      <div>Something unexpected happened in the VendorsShow component...</div>
+      <div>Something unexpected happened in the VendorShow component...</div>
     );
   }
 
-  return <div className="VendorsShow">{content}</div>;
+  return <div className="VendorShow">{content}</div>;
 };
 
-export default VendorsShow;
+export default VendorShow;

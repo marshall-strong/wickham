@@ -5,7 +5,7 @@ import {
   selectPaperProductById,
   selectPaperProductIds,
 } from "./paperProductsSlice";
-import List from "../lists/List";
+import List from "../../app/lists/List";
 
 export const PaperProduct = ({ paperProductId }) => {
   const paperProduct = useSelector((state) =>
