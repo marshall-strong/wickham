@@ -5,7 +5,7 @@ import {
   selectBuildingById,
   selectBuildingIds,
 } from "./buildingsSlice";
-import List from "../lists/List";
+import List from "../../app/lists/List";
 
 export const Building = ({ buildingId }) => {
   const building = useSelector((state) =>

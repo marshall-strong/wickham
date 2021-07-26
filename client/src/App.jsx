@@ -5,8 +5,8 @@ import {
   Route,
   Switch,
 } from "react-router-dom";
-import Home from "./features/home/Home";
-import NavBar from "./features/nav/NavBar";
+import Home from "./app/home/Home";
+import NavBar from "./app/nav/NavBar";
 import Buildings from "./features/buildings/Buildings";
 import Kitchens from "./features/kitchens/Kitchens";
 import Products from "./features/products/Products";

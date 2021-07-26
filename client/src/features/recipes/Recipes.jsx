@@ -5,7 +5,7 @@ import {
   selectRecipeById,
   selectRecipeIds,
 } from "./recipesSlice";
-import List from "../lists/List";
+import List from "../../app/lists/List";
 
 export const Recipe = ({ recipeId }) => {
   const recipe = useSelector((state) => selectRecipeById(state, recipeId));
