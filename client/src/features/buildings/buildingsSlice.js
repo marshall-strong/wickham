@@ -5,7 +5,7 @@ import {
 } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const fetchBuilding = createAsyncThunk(
+export const fetchBuilding = createAsyncThunk(
   "buildings/fetchBuilding",
   async (id) => {
     const response = await axios.get(`/api/v1/buildings/${id}`);
