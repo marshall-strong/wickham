@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { selectVendorById } from "./vendorsSlice";
 
-const Vendor = ({ vendorId }) => {
+const VendorShowItem = ({ vendorId }) => {
   const vendor = useSelector((state) => selectVendorById(state, vendorId));
   return (
     <article className="Vendor p-4 flex space-x-4">
@@ -34,4 +34,4 @@ const Vendor = ({ vendorId }) => {
   );
 };
 
-export default Vendor;
+export default VendorShowItem;
