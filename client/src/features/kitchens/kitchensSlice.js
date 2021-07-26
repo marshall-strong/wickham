@@ -5,10 +5,13 @@ import {
 } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const fetchKitchen = createAsyncThunk("kitchens/fetchKitchen", async (id) => {
-  const response = await axios.get(`/api/v1/kitchens/${id}`);
-  return response.data;
-});
+export const fetchKitchen = createAsyncThunk(
+  "kitchens/fetchKitchen",
+  async (id) => {
+    const response = await axios.get(`/api/v1/kitchens/${id}`);
+    return response.data;
+  }
+);
 
 export const fetchKitchens = createAsyncThunk(
   "kitchens/fetchKitchens",
