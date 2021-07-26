@@ -5,7 +5,7 @@ import {
 } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const fetchPaperProduct = createAsyncThunk(
+export const fetchPaperProduct = createAsyncThunk(
   "paperProducts/fetchPaperProduct",
   async (id) => {
     const response = await axios.get(`/api/v1/paper_products/${id}`);

@@ -1,13 +1,13 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { selectVendorById } from "./vendorsSlice";
+import { selectKitchenById } from "./kitchensSlice";
 
-const Vendor = ({ vendorId }) => {
-  const vendor = useSelector((state) => selectVendorById(state, vendorId));
+const KitchenShowItem = ({ kitchenId }) => {
+  const kitchen = useSelector((state) => selectKitchenById(state, kitchenId));
   return (
-    <article className="Vendor p-4 flex space-x-4">
+    <article className="Kitchen p-4 flex space-x-4">
       <img
-        // src={vendor.image}
+        // src={kitchen.image}
         alt=""
         className="flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
         width="144"
@@ -15,18 +15,18 @@ const Vendor = ({ vendorId }) => {
       />
       <div className="min-w-0 relative flex-auto sm:pr-20 lg:pr-0 xl:pr-20">
         <h2 className="text-lg font-semibold text-black mb-0.5">
-          {vendor.name}
+          {kitchen.name}
         </h2>
         <dl>
           <div className="flex-none w-full mt-0.5 font-normal">
             <dt className="inline">id</dt>
             {": "}
-            <dd className="inline text-black">{vendor.id}</dd>
+            <dd className="inline text-black">{kitchen.id}</dd>
           </div>
           <div className="flex-none w-full mt-0.5 font-normal">
             <dt className="inline">name</dt>
             {": "}
-            <dd className="inline text-black">{vendor.name}</dd>
+            <dd className="inline text-black">{kitchen.name}</dd>
           </div>
         </dl>
       </div>
@@ -34,4 +34,4 @@ const Vendor = ({ vendorId }) => {
   );
 };
 
-export default Vendor;
+export default KitchenShowItem;

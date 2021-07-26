@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchVendor } from "./vendorsSlice";
-import Vendor from "./Vendor";
+import VendorShowItem from "./VendorShowItem";
 
 const VendorShow = ({ match }) => {
   const vendorId = parseInt(match.params.vendor_id);
@@ -22,7 +22,7 @@ const VendorShow = ({ match }) => {
   if (!fetchVendorStatus || fetchVendorStatus === "pending") {
     content = <div className="loader" />;
   } else if (fetchVendorStatus === "fulfilled") {
-    content = <Vendor vendorId={vendorId} />;
+    content = <VendorShowItem vendorId={vendorId} />;
   } else if (fetchVendorStatus === "rejected") {
     content = (
       <div>
