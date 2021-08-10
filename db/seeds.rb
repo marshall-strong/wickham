@@ -28,6 +28,9 @@ regional_pizza_crusts = Product.create!(name: "pizza crust", description: "VILLA
 regional_pizza_sauce = Product.create!(name: "pizza sauce", description: "MAMA MIA PIZZA SAUCE (SAMPLE DATA)", part_no: "00002", vendor: regional)
 regional_mozzarella_cheese = Product.create!(name: "mozzarella cheese", description: "GIOVANNI MOZZARELLA CHEESE (SAMPLE DATA)", part_no: "00003", vendor: regional)
 
+# Invoices
+sample_regional_invoice = Invoice.create!(invoice_date: "July 26, 2021", invoice_number: "0001", ordered_by: "Paige Wickham", salesperson: "Rino", vendor_id: regional.id)
+
 # Buildings
 main_barn = Building.create!(name: "Main Barn")
 food_barn = Building.create!(name: "Food Barn")
