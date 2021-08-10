@@ -11,6 +11,8 @@ import BuildingShow from "./features/buildings/BuildingShow";
 import BuildingsIndex from "./features/buildings/BuildingsIndex";
 import FoodProductShow from "./features/foodProducts/FoodProductShow";
 import FoodProductsIndex from "./features/foodProducts/FoodProductsIndex";
+import InvoiceShow from "./features/invoices/InvoiceShow";
+import InvoicesIndex from "./features/invoices/InvoicesIndex";
 import KitchenShow from "./features/kitchens/KitchenShow";
 import KitchensIndex from "./features/kitchens/KitchensIndex";
 import PaperProductShow from "./features/paperProducts/PaperProductShow";
@@ -42,6 +44,8 @@ const App = () => {
             path="/food_products/:food_product_id"
             component={FoodProductShow}
           />
+          <Route exact path="/invoices" component={InvoicesIndex} />
+          <Route exact path="/invoices/:invoice_id" component={InvoiceShow} />
           <Route exact path="/kitchens" component={KitchensIndex} />
           <Route exact path="/kitchens/:kitchen_id" component={KitchenShow} />
           <Route exact path="/paper_products" component={PaperProductsIndex} />
