@@ -59,6 +59,9 @@ const NavBar = () => {
       <NavItem link="/vendors" isActive={false}>
         Vendors
       </NavItem>
+      <NavItem link="/invoices" isActive={false}>
+        Invoices
+      </NavItem>
     </NavList>
   );
 };
