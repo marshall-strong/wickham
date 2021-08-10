@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchKitchens, selectKitchenIds } from "./kitchensSlice";
-import List from "../../app/lists/List";
+import List from "../../app/index/List";
 import KitchensIndexItem from "./KitchensIndexItem";
 
 const KitchensIndexItems = ({ kitchenIds }) => {

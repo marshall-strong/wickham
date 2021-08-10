@@ -8,7 +8,7 @@ import axios from "axios";
 export const fetchInvoice = createAsyncThunk(
   "invoices/fetchInvoice",
   async (id) => {
-    const response = await axios.get(`/api/v1/ncr_items/${id}`);
+    const response = await axios.get(`/api/v1/invoices/${id}`);
     return response.data;
   }
 );
@@ -16,7 +16,7 @@ export const fetchInvoice = createAsyncThunk(
 export const fetchInvoices = createAsyncThunk(
   "invoices/fetchInvoices",
   async () => {
-    const response = await axios.get(`/api/v1/ncr_items`);
+    const response = await axios.get(`/api/v1/invoices`);
     return response.data;
   }
 );

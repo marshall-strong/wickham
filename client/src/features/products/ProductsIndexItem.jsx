@@ -30,6 +30,11 @@ const ProductsIndexItem = ({ productId }) => {
               {": "}
               <dd className="inline text-black">{product.name}</dd>
             </div>
+            <div className="flex-none w-full mt-0.5 font-normal">
+              <dt className="inline">description</dt>
+              {": "}
+              <dd className="inline text-black">{product.description}</dd>
+            </div>
           </dl>
         </div>
       </Link>

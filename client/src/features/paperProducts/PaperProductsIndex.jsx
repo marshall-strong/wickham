@@ -4,7 +4,7 @@ import {
   fetchPaperProducts,
   selectPaperProductIds,
 } from "./paperProductsSlice";
-import List from "../../app/lists/List";
+import List from "../../app/index/List";
 import PaperProductsIndexItem from "./PaperProductsIndexItem";
 
 const PaperProductsIndexItems = ({ paperProductIds }) => {

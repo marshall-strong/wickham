@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchBuildings, selectBuildingIds } from "./buildingsSlice";
-import List from "../../app/lists/List";
+import List from "../../app/index/List";
 import BuildingsIndexItem from "./BuildingsIndexItem";
 
 const BuildingsIndexItems = ({ buildingIds }) => {
