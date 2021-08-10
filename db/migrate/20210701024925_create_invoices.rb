@@ -15,6 +15,7 @@ class CreateInvoices < ActiveRecord::Migration[6.1]
       t.string :terms
       t.string :ship_date
       t.string :order_date
+      t.integer :vendor_id
 
       t.timestamps
     end

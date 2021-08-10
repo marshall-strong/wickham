@@ -44,6 +44,7 @@ ActiveRecord::Schema.define(version: 2021_07_20_005755) do
     t.string "terms"
     t.string "ship_date"
     t.string "order_date"
+    t.integer "vendor_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
